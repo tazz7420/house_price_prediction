@@ -1,0 +1,4154 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-07-26T06:24:29Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/529298457",
+        "building": "yes",
+        "monorail": "yes",
+        "name": "銀河號",
+        "name:en": "Monorail",
+        "name:zh": "銀河號",
+        "public_transport": "station",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5145873,
+              25.0979391
+            ],
+            [
+              121.5146047,
+              25.0978947
+            ],
+            [
+              121.5147469,
+              25.0978607
+            ],
+            [
+              121.5150365,
+              25.0979591
+            ],
+            [
+              121.5150271,
+              25.0979846
+            ],
+            [
+              121.5149923,
+              25.0979816
+            ],
+            [
+              121.514997,
+              25.0980132
+            ],
+            [
+              121.5149339,
+              25.0980496
+            ],
+            [
+              121.5145873,
+              25.0979391
+            ]
+          ]
+        ]
+      },
+      "id": "way/529298457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1061978434",
+        "building": "yes",
+        "internet_access": "yes",
+        "layer": "-2",
+        "operator": "台北捷運公司 Taipei Metro",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5167497,
+              25.0345372
+            ],
+            [
+              121.5170095,
+              25.0341911
+            ],
+            [
+              121.5169842,
+              25.0341778
+            ],
+            [
+              121.5167578,
+              25.0344775
+            ],
+            [
+              121.5158122,
+              25.034596
+            ],
+            [
+              121.5158069,
+              25.0345655
+            ],
+            [
+              121.5167371,
+              25.0344526
+            ],
+            [
+              121.5169736,
+              25.0341341
+            ],
+            [
+              121.5170329,
+              25.0341653
+            ],
+            [
+              121.5179308,
+              25.0329823
+            ],
+            [
+              121.5179041,
+              25.0329643
+            ],
+            [
+              121.517852,
+              25.0330436
+            ],
+            [
+              121.5178281,
+              25.0330307
+            ],
+            [
+              121.5179005,
+              25.0329296
+            ],
+            [
+              121.5179473,
+              25.0329586
+            ],
+            [
+              121.5180346,
+              25.0328433
+            ],
+            [
+              121.5179814,
+              25.0328103
+            ],
+            [
+              121.5182563,
+              25.0324405
+            ],
+            [
+              121.5182783,
+              25.03246
+            ],
+            [
+              121.5180341,
+              25.0327945
+            ],
+            [
+              121.5180586,
+              25.0328116
+            ],
+            [
+              121.5182282,
+              25.0325875
+            ],
+            [
+              121.5184093,
+              25.0326957
+            ],
+            [
+              121.5182031,
+              25.0329849
+            ],
+            [
+              121.5182485,
+              25.0330106
+            ],
+            [
+              121.5183783,
+              25.0328352
+            ],
+            [
+              121.5183877,
+              25.0328232
+            ],
+            [
+              121.5184032,
+              25.0328102
+            ],
+            [
+              121.518432,
+              25.0327813
+            ],
+            [
+              121.5185166,
+              25.0326943
+            ],
+            [
+              121.5185621,
+              25.0326357
+            ],
+            [
+              121.5189081,
+              25.0321932
+            ],
+            [
+              121.5189204,
+              25.0321985
+            ],
+            [
+              121.5185742,
+              25.032641
+            ],
+            [
+              121.5185269,
+              25.0327024
+            ],
+            [
+              121.5184985,
+              25.0327328
+            ],
+            [
+              121.5184645,
+              25.0327641
+            ],
+            [
+              121.5184215,
+              25.0328128
+            ],
+            [
+              121.5184077,
+              25.0328272
+            ],
+            [
+              121.5183971,
+              25.03284
+            ],
+            [
+              121.5179721,
+              25.0334249
+            ],
+            [
+              121.517953,
+              25.0334144
+            ],
+            [
+              121.518222,
+              25.0330434
+            ],
+            [
+              121.5181797,
+              25.0330175
+            ],
+            [
+              121.5172658,
+              25.0342787
+            ],
+            [
+              121.5175656,
+              25.0344521
+            ],
+            [
+              121.5175432,
+              25.0344764
+            ],
+            [
+              121.5172909,
+              25.0350821
+            ],
+            [
+              121.5172228,
+              25.0351167
+            ],
+            [
+              121.5172166,
+              25.0351063
+            ],
+            [
+              121.5172384,
+              25.0350957
+            ],
+            [
+              121.5172239,
+              25.0350713
+            ],
+            [
+              121.5172658,
+              25.0350503
+            ],
+            [
+              121.5174967,
+              25.0344857
+            ],
+            [
+              121.5172998,
+              25.0345682
+            ],
+            [
+              121.5165006,
+              25.0356035
+            ],
+            [
+              121.5165728,
+              25.0358754
+            ],
+            [
+              121.516543,
+              25.0358856
+            ],
+            [
+              121.5164619,
+              25.0355889
+            ],
+            [
+              121.5172756,
+              25.0345452
+            ],
+            [
+              121.5174743,
+              25.0344613
+            ],
+            [
+              121.5172306,
+              25.0343206
+            ],
+            [
+              121.5169917,
+              25.0346551
+            ],
+            [
+              121.5167497,
+              25.0345372
+            ]
+          ]
+        ]
+      },
+      "id": "way/1061978434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1062353405",
+        "building": "yes",
+        "layer": "-2",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5511063,
+              25.0635814
+            ],
+            [
+              121.5511086,
+              25.0634988
+            ],
+            [
+              121.5514173,
+              25.0635066
+            ],
+            [
+              121.5514394,
+              25.063495
+            ],
+            [
+              121.5514495,
+              25.0631407
+            ],
+            [
+              121.550984,
+              25.063126
+            ],
+            [
+              121.5509532,
+              25.0631333
+            ],
+            [
+              121.5509237,
+              25.0631368
+            ],
+            [
+              121.5507892,
+              25.0631323
+            ],
+            [
+              121.5508033,
+              25.0629332
+            ],
+            [
+              121.5508349,
+              25.0629345
+            ],
+            [
+              121.5508368,
+              25.0628491
+            ],
+            [
+              121.5511236,
+              25.0628606
+            ],
+            [
+              121.5511194,
+              25.0629277
+            ],
+            [
+              121.5520167,
+              25.0629432
+            ],
+            [
+              121.5520207,
+              25.0628903
+            ],
+            [
+              121.5523855,
+              25.0628986
+            ],
+            [
+              121.5523857,
+              25.0629486
+            ],
+            [
+              121.5523538,
+              25.0629484
+            ],
+            [
+              121.5523407,
+              25.0631594
+            ],
+            [
+              121.5516215,
+              25.0631434
+            ],
+            [
+              121.5516113,
+              25.063509
+            ],
+            [
+              121.5519608,
+              25.0635169
+            ],
+            [
+              121.5519584,
+              25.0636005
+            ],
+            [
+              121.5511063,
+              25.0635814
+            ]
+          ]
+        ]
+      },
+      "id": "way/1062353405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/253559357",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "-1",
+        "addr:housenumber": "126-5",
+        "addr:postcode": "10089",
+        "addr:street": "羅斯福路三段",
+        "air_conditioning": "yes",
+        "is_in:zh": "台灣台北市",
+        "name": "台電大樓",
+        "name:en": "Taipower Building",
+        "name:hak": "toiˇ tien tai leuˇ",
+        "name:ja": "台湾電力ビル",
+        "name:nan": "Tâi-tiān Tōa-lâu",
+        "name:nan-HJ": "臺電大樓",
+        "name:nan-POJ": "Tâi-tiān Tōa-lâu",
+        "name:nan-TL": "Tâi-tiān Tuā-lâu",
+        "name:zh": "台電大樓",
+        "name:zh-Hans": "台电大楼",
+        "name:zh-Hant": "臺電大樓",
+        "name:zh_pinyin": "tái diàn dà lóu",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "G08",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q708952",
+        "wikipedia": "zh:台電大樓站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5283902,
+          25.0205325
+        ]
+      },
+      "id": "node/253559357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/269820830",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "北投區",
+        "addr:housenumber": "700",
+        "addr:postcode": "11268",
+        "addr:street": "大業路",
+        "air_conditioning": "yes",
+        "is_in:zh": "台灣台北市",
+        "name": "新北投",
+        "name:en": "Xinbeitou",
+        "name:hak": "xinˊ bedˋ teuˇ",
+        "name:ja": "新北投",
+        "name:nan": "Sin-Pak-tâu",
+        "name:nan-HJ": "新北投",
+        "name:nan-POJ": "Sin-Pak-tâu",
+        "name:nan-TL": "Sin-pak-tâu",
+        "name:zh": "新北投",
+        "name:zh-Hans": "新北投",
+        "name:zh-Hant": "新北投",
+        "name:zh_pinyin": "xīn běi tóu",
+        "network": "臺北捷運",
+        "old_ref": "R27",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R22A",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698837",
+        "wikipedia": "zh:新北投站",
+        "wikipedia:zh": "新北投站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5031693,
+          25.1369644
+        ]
+      },
+      "id": "node/269820830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/373400459",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "內湖區",
+        "addr:full": "11493臺北市內湖區內湖路一段256號",
+        "addr:housenumber": "256",
+        "addr:postcode": "11493",
+        "addr:street": "內湖路一段",
+        "air_conditioning": "yes",
+        "name": "西湖",
+        "name:en": "Xihu",
+        "name:hak": "xiˊ fuˇ",
+        "name:ko": "시후",
+        "name:nan": "Se-ô͘",
+        "name:nan-HJ": "西湖",
+        "name:nan-POJ": "Se-ô͘",
+        "name:nan-TL": "Se-ôo",
+        "name:zh": "西湖",
+        "name:zh-Hans": "西湖",
+        "name:zh-Hant": "西湖",
+        "name:zh_pinyin": "xī hú",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR16",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q699531",
+        "wikipedia": "zh:西湖站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5673156,
+          25.0821916
+        ]
+      },
+      "id": "node/373400459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/689295008",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:full": "11694臺北市文山區辛亥路四段128號",
+        "addr:housenumber": "128",
+        "addr:postcode": "11694",
+        "addr:street": "辛亥路四段",
+        "air_conditioning": "yes",
+        "name": "辛亥",
+        "name:en": "Xinhai",
+        "name:hak": "xinˊ hoi",
+        "name:ko": "신하이",
+        "name:nan": "Sin-hāi",
+        "name:nan-HJ": "辛亥",
+        "name:nan-POJ": "Sin-hāi",
+        "name:nan-TL": "Sin-hāi",
+        "name:zh": "辛亥",
+        "name:zh-Hans": "辛亥",
+        "name:zh-Hant": "辛亥",
+        "name:zh_pinyin": "xīn hài",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR05",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698445",
+        "wikipedia": "zh:辛亥站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5570598,
+          25.0054814
+        ]
+      },
+      "id": "node/689295008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/689354512",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:full": "11696臺北市文山區興隆路三段113號",
+        "addr:housenumber": "113",
+        "addr:postcode": "11696",
+        "addr:street": "興隆路三段",
+        "air_conditioning": "yes",
+        "name": "萬芳醫院",
+        "name:en": "Wanfang Hospital",
+        "name:hak": "van fongˊ iˊ ien",
+        "name:ko": "완팡병원",
+        "name:nan": "Bān-hong-pēnn-īnn",
+        "name:nan-HJ": "萬芳病院",
+        "name:nan-POJ": "Bān-hong-pēnn-īnn",
+        "name:nan-TL": "Bān-hong Pīnn-īnn",
+        "name:zh": "萬芳醫院",
+        "name:zh-Hans": "万芳医院",
+        "name:zh-Hant": "萬芳醫院",
+        "name:zh_pinyin": "wàn fāng yī yuàn",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR04",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698008",
+        "wikipedia": "zh:萬芳醫院站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.558138,
+          24.9994306
+        ]
+      },
+      "id": "node/689354512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/689418701",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:full": "11653臺北市文山區萬芳路60號",
+        "addr:housenumber": "60",
+        "addr:postcode": "11653",
+        "addr:street": "萬芳路",
+        "air_conditioning": "yes",
+        "name": "萬芳社區",
+        "name:en": "Wanfang Community",
+        "name:hak": "van fongˊsa kiˊ",
+        "name:ko": "완팡지구",
+        "name:nan": "Bān-hong-siā-khu",
+        "name:nan-HJ": "萬芳社區",
+        "name:nan-POJ": "Bān-hong-siā-khu",
+        "name:nan-TL": "Bān-hong Siā-khu",
+        "name:zh": "萬芳社區",
+        "name:zh-Hans": "万芳社区",
+        "name:zh-Hant": "萬芳社區",
+        "name:zh_pinyin": "wàn fāng shè qū",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR03",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698602",
+        "wikipedia": "zh:萬芳社區站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5681226,
+          24.9986089
+        ]
+      },
+      "id": "node/689418701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/689420115",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:full": "11656臺北市文山區木柵路四段135號",
+        "addr:housenumber": "135",
+        "addr:postcode": "11656",
+        "addr:street": "木柵路四段",
+        "air_conditioning": "yes",
+        "name": "木柵",
+        "name:en": "Muzha",
+        "name:hak": "mugˋ cag",
+        "name:ko": "무자",
+        "name:nan": "Ba̍k-sa",
+        "name:nan-HJ": "木柵",
+        "name:nan-POJ": "Ba̍k-sa",
+        "name:nan-TL": "Ba̍k-sa",
+        "name:zh": "木柵",
+        "name:zh-Hans": "木栅",
+        "name:zh-Hant": "木柵",
+        "name:zh_pinyin": "mù shān",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR02",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698788",
+        "wikipedia": "zh:木柵站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5731834,
+          24.9982458
+        ]
+      },
+      "id": "node/689420115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/689422202",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:full": "11656臺北市文山區新光路二段32號",
+        "addr:housenumber": "32",
+        "addr:postcode": "11656",
+        "addr:street": "新光路二段",
+        "air_conditioning": "yes",
+        "name": "動物園",
+        "name:en": "Taipei Zoo",
+        "name:hak": "tung vud ienˇ",
+        "name:ko": "타이베이동물원",
+        "name:nan": "Tōng-bu̍t-hn̂g",
+        "name:nan-HJ": "動物園",
+        "name:nan-POJ": "Tōng-bu̍t-hn̂g",
+        "name:nan-TL": "Tōng-bu̍t-hn̂g",
+        "name:zh": "動物園",
+        "name:zh-Hans": "动物园",
+        "name:zh-Hant": "動物園",
+        "name:zh_pinyin": "dòng wù yuán",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR01",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698627",
+        "wikipedia": "zh:動物園站 (臺北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5794478,
+          24.9983168
+        ]
+      },
+      "id": "node/689422202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/689442955",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:full": "10676臺北市大安區和平東路三段410號",
+        "addr:housenumber": "410",
+        "addr:postcode": "10676",
+        "addr:state": "臺北市",
+        "addr:street": "和平東路三段",
+        "air_conditioning": "yes",
+        "name": "麟光",
+        "name:en": "Linguang",
+        "name:hak": "linˇ gongˊ",
+        "name:ko": "린광",
+        "name:nan": "Lîn-kong",
+        "name:nan-HJ": "麟光",
+        "name:nan-POJ": "Lîn-kong",
+        "name:nan-TL": "Lîn-kong",
+        "name:zh": "麟光",
+        "name:zh-Hans": "麟光",
+        "name:zh-Hant": "麟光",
+        "name:zh_pinyin": "lín guāng",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR06",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698524",
+        "wikipedia": "zh:麟光站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5589054,
+          25.0184395
+        ]
+      },
+      "id": "node/689442955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1273038428",
+        "addr:country": "TW",
+        "addr:full": "臺北市萬華區富福里康定路382號;臺北市萬華區富福里康定路319號",
+        "name": "萬華",
+        "name:en": "Wanhua",
+        "name:hak": "van faˇ",
+        "name:hak-HJ": "萬華",
+        "name:ja": "万華",
+        "name:ko": "완화",
+        "name:nan": "Báng-kah",
+        "name:nan-HJ": "艋舺",
+        "name:nan-POJ": "Báng-kah",
+        "name:nan-TL": "Báng-kah",
+        "name:zh": "萬華",
+        "name:zh-Hans": "万华",
+        "name:zh-Hant": "萬華",
+        "name:zh_pinyin": "wàn huá",
+        "network": "臺鐵",
+        "network:en": "TRA",
+        "operator": "臺灣鐵路管理局",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "1010",
+        "station": "train",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q7967935",
+        "wikipedia": "zh:萬華車站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4999266,
+          25.0334399
+        ]
+      },
+      "id": "node/1273038428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1493007672",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:floor": "-1",
+        "addr:housenumber": "316",
+        "addr:postcode": "10468",
+        "addr:street": "松江路",
+        "name": "行天宮",
+        "name:en": "Xingtian Temple",
+        "name:hak": "hangˇ tienˊ giungˊ",
+        "name:ja": "行天宮",
+        "name:ko": "승톈공",
+        "name:nan": "Un-chú-kong-biō/Hêng-thian-kiong",
+        "name:nan-HJ": "恩主公廟/行天宮",
+        "name:nan-POJ": "Un-chú-kong-biō/Hêng-thian-kiong",
+        "name:nan-TL": "Un-tsú-kong-biō /Hîng-thian-kiong",
+        "name:zh": "行天宮",
+        "name:zh-Hans": "行天宫",
+        "name:zh-Hant": "行天宮",
+        "name:zh_pinyin": "háng tiān gōng",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "O09",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q5948786",
+        "wikipedia": "zh:行天宮站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5331615,
+          25.0594133
+        ]
+      },
+      "id": "node/1493007672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1493007755",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:floor": "B1",
+        "addr:full": "台北市中山區松江路126號B1",
+        "addr:housenumber": "126",
+        "addr:postcode": "104",
+        "addr:street": "松江路",
+        "air_conditioning": "yes",
+        "name": "松江南京",
+        "name:en": "Songjiang Nanjing",
+        "name:hak": "qiungˇ gongˊ namˇ ginˊ",
+        "name:ja": "松江南京",
+        "name:nan": "Siông-kang Lâm-kiaⁿ",
+        "name:nan-HJ": "松江南京",
+        "name:nan-POJ": "Siông-kang Lâm-kiaⁿ",
+        "name:nan-TL": "Siông-kang Lâm-kiann",
+        "name:zh": "松江南京",
+        "name:zh-Hans": "松江南京",
+        "name:zh-Hant": "松江南京",
+        "name:zh_pinyin": "sōng jiāng nán jīng",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "O08;G15",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q6119107",
+        "wikipedia": "zh:松江南京站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5330358,
+          25.0520141
+        ]
+      },
+      "id": "node/1493007755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1666865098",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:housenumber": "11",
+        "addr:postcode": "110",
+        "addr:street": "松山路",
+        "alt_name": "松山火車站",
+        "name": "松山",
+        "name:en": "Songshan",
+        "name:hak": "qiungˇ sanˊ",
+        "name:hak-HJ": "松山",
+        "name:ja": "松山",
+        "name:ko": "쑹산",
+        "name:nan": "Siông-san",
+        "name:nan-HJ": "松山",
+        "name:nan-POJ": "Siông-san",
+        "name:nan-TL": "Siông-san",
+        "name:zh": "松山",
+        "name:zh-Hans": "松山",
+        "name:zh-Hant": "松山",
+        "name:zh_pinyin": "sōng shān",
+        "network": "臺鐵",
+        "network:en": "TRA",
+        "operator": "臺灣鐵路管理局",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "990",
+        "station": "train",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q7561635",
+        "wikipedia": "zh:松山車站 (台灣)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5781643,
+          25.0491542
+        ]
+      },
+      "id": "node/1666865098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1681745146",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:full": "10465臺北市中山區北安路534-1號",
+        "addr:housenumber": "534-1",
+        "addr:postcode": "10465",
+        "addr:street": "北安路",
+        "air_conditioning": "yes",
+        "alt_name": "實踐大學",
+        "alt_name:en": "Shih Chien University",
+        "alt_name:nan": "Tāi-ti̍t",
+        "name": "大直",
+        "name:en": "Dazhi",
+        "name:hak": "tai ciid",
+        "name:ko": "다즈",
+        "name:nan": "Tuā-ti̍t",
+        "name:nan-HJ": "大直",
+        "name:nan-POJ": "Tuā-ti̍t",
+        "name:nan-TL": "Tuā-ti̍t",
+        "name:zh": "大直",
+        "name:zh-Hans": "大直",
+        "name:zh-Hant": "大直",
+        "name:zh_pinyin": "dà zhí",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR14",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q699920",
+        "wikipedia": "zh:大直站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5474402,
+          25.0798652
+        ]
+      },
+      "id": "node/1681745146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1940469232",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:floor": "-1",
+        "addr:full": "10650臺北市大安區信義路二段166號B1",
+        "addr:housenumber": "166",
+        "addr:postcode": "10650",
+        "addr:street": "信義路二段",
+        "air_conditioning": "yes",
+        "baby_feeding": "room",
+        "internet_access": "wlan",
+        "internet_access:ssid": "TPE-Free",
+        "level": "-1",
+        "name": "東門",
+        "name:en": "Dongmen",
+        "name:hak": "dungˊ munˇ",
+        "name:ja": "東門駅",
+        "name:ko": "둥먼",
+        "name:nan": "Tang-mn̂g",
+        "name:nan-HJ": "東門",
+        "name:nan-POJ": "Tang-mn̂g",
+        "name:nan-TL": "Tang-mn̂g",
+        "name:zh": "東門",
+        "name:zh-Hans": "东门",
+        "name:zh-Hant": "東門",
+        "name:zh_pinyin": "dōng mén",
+        "network": "臺北捷運",
+        "old_ref": "O14;R10",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "O06;R07",
+        "start_date": "2012-09-30",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q699205",
+        "wikipedia": "zh:東門站 (台北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5292584,
+          25.0338425
+        ]
+      },
+      "id": "node/1940469232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1945578205",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "南港區",
+        "addr:full": "台北市南港區研究院路一段1號",
+        "addr:housenumber": "1",
+        "addr:postcode": "11568",
+        "addr:street": "研究院路一段",
+        "air_conditioning": "yes",
+        "baby_feeding": "room",
+        "name": "南港展覽館",
+        "name:en": "Taipei Nangang Exhibition Center",
+        "name:hak": "namˇ gongˋ zanˋ lam gonˋ",
+        "name:nan": "Lâm-káng Tián-lám-koán",
+        "name:nan-HJ": "南港展覽館",
+        "name:nan-POJ": "Lâm-káng Tián-lám-koán",
+        "name:nan-TL": "Lâm-káng Tián-lám-kuán",
+        "name:zh": "南港展覽館",
+        "name:zh-Hans": "南港展览馆",
+        "name:zh-Hant": "南港展覽館",
+        "name:zh_pinyin": "nán gǎng zhǎn lǎn guǎn",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BL23",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q699465",
+        "wikipedia": "zh:南港展覽館站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6172189,
+          25.0545687
+        ]
+      },
+      "id": "node/1945578205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2971714589",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "內湖區",
+        "addr:full": "11489臺北市內湖區成功路四段186號",
+        "addr:housenumber": "186",
+        "addr:postcode": "11489",
+        "addr:state": "臺北市",
+        "addr:street": "成功路四段",
+        "air_conditioning": "yes",
+        "name": "內湖",
+        "name:en": "Neihu",
+        "name:hak": "nui fuˇ",
+        "name:ko": "네이후",
+        "name:nan": "Lāi-ô͘",
+        "name:nan-HJ": "內湖",
+        "name:nan-POJ": "Lāi-ô͘",
+        "name:nan-TL": "Lāi-ôo",
+        "name:zh": "內湖",
+        "name:zh-Hans": "内湖",
+        "name:zh-Hant": "內湖",
+        "name:zh_pinyin": "nèi hú",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR19",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q699449",
+        "wikipedia": "zh:內湖站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5944358,
+          25.0837198
+        ]
+      },
+      "id": "node/2971714589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2973163775",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "-1",
+        "addr:full": "10048臺北市中正區公園路52號B1",
+        "addr:housenumber": "52",
+        "addr:postcode": "10048",
+        "addr:street": "公園路",
+        "air_conditioning": "yes",
+        "alt_name": "台大病院",
+        "name": "台大醫院",
+        "name:en": "NTU Hospital",
+        "name:hak": "toiˇ tai iˊ ien",
+        "name:ja": "台北大学病院",
+        "name:ko": "타이완대학병원",
+        "name:nan": "Tâi-tāi-pēⁿ-īⁿ",
+        "name:nan-HJ": "台大病院",
+        "name:nan-POJ": "Tâi-tāi-pēⁿ-īⁿ",
+        "name:nan-TL": "Tâi-tāi Pīnn-īnn",
+        "name:zh": "台大醫院",
+        "name:zh-Hans": "台大医院",
+        "name:zh-Hant": "臺大醫院",
+        "name:zh_pinyin": "tái dà yī yuàn",
+        "network": "臺北捷運",
+        "old_ref": "R12",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R09",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698114",
+        "wikipedia": "zh:台大醫院站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5161808,
+          25.0416464
+        ]
+      },
+      "id": "node/2973163775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3263840809",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:full": "10341臺北市大同區塔城街10號",
+        "addr:housenumber": "10",
+        "addr:postcode": "10341",
+        "addr:street": "塔城街",
+        "air_conditioning": "yes",
+        "name": "北門",
+        "name:en": "Beimen",
+        "name:hak": "bedˋ munˇ",
+        "name:ja": "北門",
+        "name:nan": "Pak-mn̂g",
+        "name:nan-HJ": "北門",
+        "name:nan-POJ": "Pak-mn̂g",
+        "name:nan-TL": "Pak-mn̂g",
+        "name:zh": "北門",
+        "name:zh-Hans": "北门",
+        "name:zh-Hant": "北門",
+        "name:zh_pinyin": "běi mén",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "G13",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q4881268",
+        "wikipedia": "zh:北門站 (台北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5103289,
+          25.0493991
+        ]
+      },
+      "id": "node/3263840809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3494960745",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:floor": "-1",
+        "addr:full": "11080臺北市信義區信義路五段152號B1",
+        "addr:housenumber": "152",
+        "addr:postcode": "11080",
+        "addr:street": "信義路五段",
+        "air_conditioning": "yes",
+        "name": "象山",
+        "name:en": "Xiangshan",
+        "name:hak": "xiong sanˊ",
+        "name:ko": "샹산",
+        "name:nan": "Chhiūⁿ-soaⁿ",
+        "name:nan-HJ": "象山",
+        "name:nan-POJ": "Chhiūⁿ-soaⁿ",
+        "name:nan-TL": "Tshiūnn-suann",
+        "name:zh": "象山",
+        "name:zh-Hans": "象山",
+        "name:zh-Hant": "象山",
+        "name:zh_pinyin": "xiàng shān",
+        "network": "臺北捷運",
+        "old_ref": "R5",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R02",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q4276721",
+        "wikipedia": "zh:象山站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5697576,
+          25.0328676
+        ]
+      },
+      "id": "node/3494960745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3494960746",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:floor": "-1",
+        "addr:full": "11049臺北市信義區信義路五段20號B1",
+        "addr:housenumber": "20",
+        "addr:postcode": "11049",
+        "addr:street": "信義路五段",
+        "air_conditioning": "yes",
+        "name": "台北101/世貿",
+        "name:en": "Taipei 101/World Trade Center",
+        "name:hak": "toiˇ bedˋ idˋ langˇ idˋ/sii meuˋ",
+        "name:ja": "台北101/世界貿易センター",
+        "name:ko": "타이베이 101/세계무역센터",
+        "name:nan": "Tâi-pak It-khòng-it/Sè-bō͘",
+        "name:nan-HJ": "臺北101/世貿",
+        "name:nan-POJ": "Tâi-pak It-khòng-it/Sè-bō͘",
+        "name:nan-TL": "Tâi-pak It-khòng-it/ Sè-bōo",
+        "name:zh": "台北101/世貿",
+        "name:zh-Hans": "台北101/世贸",
+        "name:zh-Hant": "臺北101/世貿",
+        "name:zh_pinyin": "tái běi 101/shì mào",
+        "network": "臺北捷運",
+        "old_ref": "R6",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R03",
+        "station": "subway",
+        "subway": "yes",
+        "train": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q7676267",
+        "wikipedia": "zh:台北101/世貿站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5624455,
+          25.0330359
+        ]
+      },
+      "id": "node/3494960746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3494960747",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:floor": "-1",
+        "addr:full": "10681臺北市大安區信義路四段212-1號B1",
+        "addr:housenumber": "212-1",
+        "addr:postcode": "10681",
+        "addr:state": "臺北市",
+        "addr:street": "信義路四段",
+        "air_conditioning": "yes",
+        "name": "信義安和",
+        "name:en": "Xinyi Anhe",
+        "name:hak": "xin ngi onˊ foˇ",
+        "name:ko": "신이안허",
+        "name:nan": "Sìn-gī-an-hô",
+        "name:nan-HJ": "信義安和",
+        "name:nan-POJ": "Sìn-gī-an-hô",
+        "name:nan-TL": "Sìn-gī An-hô",
+        "name:zh": "信義安和",
+        "name:zh-Hans": "信义安和",
+        "name:zh-Hant": "信義安和",
+        "name:zh_pinyin": "xìn yì ān hé",
+        "network": "臺北捷運",
+        "old_ref": "R7",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R04",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q8044681",
+        "wikipedia": "zh:信義安和站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5527328,
+          25.033157
+        ]
+      },
+      "id": "node/3494960747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3494960748",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:floor": "1;B1",
+        "addr:full": "台北市大安區信義路四段2號;台北市大安區信義路三段180號B1",
+        "addr:housenumber": "2;180",
+        "addr:postcode": "106",
+        "addr:street": "信義路四段;信義路三段",
+        "air_conditioning": "yes",
+        "name": "大安",
+        "name:en": "Daan",
+        "name:hak": "tai onˊ",
+        "name:ko": "다안",
+        "name:nan": "Tāi-an",
+        "name:nan-HJ": "大安",
+        "name:nan-POJ": "Tāi-an",
+        "name:nan-TL": "Tāi-an",
+        "name:zh": "大安",
+        "name:zh-Hans": "大安",
+        "name:zh-Hant": "大安",
+        "name:zh_pinyin": "dà ān",
+        "network": "臺北捷運",
+        "old_ref": "BR5;R8",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR09;R05",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698662",
+        "wikipedia": "zh:大安站 (臺灣)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5435546,
+          25.0333294
+        ]
+      },
+      "id": "node/3494960748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3494960749",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:floor": "-1",
+        "addr:full": "10656臺北市大安區信義路三段100號B1",
+        "addr:housenumber": "100",
+        "addr:postcode": "10656",
+        "addr:state": "臺北市",
+        "addr:street": "信義路三段",
+        "air_conditioning": "yes",
+        "name": "大安森林公園",
+        "name:en": "Daan Park",
+        "name:hak": "tai onˊ semˊ limˇ gungˊ ienˇ",
+        "name:ko": "다안삼림공원",
+        "name:nan": "Tāi-an-sim-lîm-kong-hn̂g",
+        "name:nan-HJ": "大安森林公園",
+        "name:nan-POJ": "Tāi-an-sim-lîm-kong-hn̂g",
+        "name:nan-TL": "Tāi-an Sim-lîm Kong-hn̂g",
+        "name:zh": "大安森林公園",
+        "name:zh-Hans": "大安森林公园",
+        "name:zh-Hant": "大安森林公園",
+        "name:zh_pinyin": "dà ān sēn lín gōng yuán",
+        "network": "臺北捷運",
+        "old_ref": "R9",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R06",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q5207374",
+        "wikipedia": "zh:大安森林公園站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5352793,
+          25.0335619
+        ]
+      },
+      "id": "node/3494960749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3494960750",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "-1",
+        "addr:full": "10074臺北市中正區羅斯福路一段8-1號B1",
+        "addr:housenumber": "8-1",
+        "addr:postcode": "10074",
+        "addr:street": "羅斯福路一段",
+        "air_conditioning": "yes",
+        "baby_feeding": "room",
+        "level": "-1",
+        "name": "中正紀念堂",
+        "name:en": "Chiang Kai-Shek Memorial Hall",
+        "name:hak": "zungˊ ziin gi ngiam tongˇ",
+        "name:ko": "중정기념당",
+        "name:nan": "Tiong-chèng-kì-liām-tn̂g",
+        "name:nan-HJ": "中正紀念堂",
+        "name:nan-POJ": "Tiong-chèng-kì-liām-tn̂g",
+        "name:nan-TL": "Tiong-tsìng Kì-liām-tn̂g",
+        "name:zh": "中正紀念堂",
+        "name:zh-Hans": "中正纪念堂",
+        "name:zh-Hant": "中正紀念堂",
+        "name:zh_pinyin": "zhōng zhèng jì niàn táng",
+        "network": "臺北捷運",
+        "old_ref": "R11;G11",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R08;G10",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698013",
+        "wikipedia": "zh:中正紀念堂站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5177618,
+          25.0333942
+        ]
+      },
+      "id": "node/3494960750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094870",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:full": "10041臺北市中正區忠孝西路一段49號",
+        "addr:housenumber": "49",
+        "addr:postcode": "10041",
+        "addr:street": "忠孝西路一段",
+        "air_conditioning": "yes",
+        "baby_feeding": "room",
+        "name": "台北車站",
+        "name:en": "Taipei main station",
+        "name:hak": "toiˇ bedˋ caˊ zam",
+        "name:ja": "台北駅",
+        "name:ko": "타이베이역",
+        "name:nan": "Tâi-pak-chhia-chām",
+        "name:nan-HJ": "臺北車站",
+        "name:nan-POJ": "Tâi-pak-chhia-chām",
+        "name:nan-TL": "Tâi-pak Tshia-tsām",
+        "name:zh": "台北車站",
+        "name:zh-Hans": "台北车站",
+        "name:zh-Hant": "臺北車站",
+        "name:zh_pinyin": "tái běi chē zhàn",
+        "network": "臺北捷運",
+        "old_ref": "R13;BL7",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R10;BL12",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q700588",
+        "wikipedia": "zh:臺北車站",
+        "wikipedia:en": "Taipei main station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5174745,
+          25.0462432
+        ]
+      },
+      "id": "node/3495094870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094871",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:floor": "B1",
+        "addr:full": "台北市中山區南京西路16號B1",
+        "addr:housenumber": "16",
+        "addr:postcode": "104",
+        "addr:street": "南京西路",
+        "air_conditioning": "yes",
+        "name": "中山",
+        "name:en": "Zhongshan",
+        "name:etymology": "孫中山",
+        "name:etymology:wikidata": "Q8573",
+        "name:etymology:wikipedia": "zh:孫中山",
+        "name:hak": "zungˊ sanˊ",
+        "name:ko": "중산",
+        "name:nan": "Tiong-san",
+        "name:nan-HJ": "中山",
+        "name:nan-POJ": "Tiong-san",
+        "name:nan-TL": "Tiong-san",
+        "name:zh": "中山",
+        "name:zh-Hans": "中山",
+        "name:zh-Hant": "中山",
+        "name:zh_pinyin": "zhōng shān",
+        "network": "臺北捷運",
+        "old_ref": "R14",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R11;G14",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698643",
+        "wikipedia": "zh:中山站 (台北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5203914,
+          25.0526256
+        ]
+      },
+      "id": "node/3495094871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094872",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:full": "10354臺北市大同區民生西路47號",
+        "addr:housenumber": "47",
+        "addr:postcode": "10354",
+        "addr:street": "民生西路",
+        "air_conditioning": "yes",
+        "name": "雙連",
+        "name:en": "Shuanglian",
+        "name:hak": "sungˊ lienˇ",
+        "name:ja": "双連",
+        "name:ko": "솽롄",
+        "name:nan": "Siang-liân",
+        "name:nan-HJ": "雙連",
+        "name:nan-POJ": "Siang-liân",
+        "name:nan-TL": "Siang-liân",
+        "name:zh": "雙連",
+        "name:zh-Hans": "双连",
+        "name:zh-Hant": "雙連",
+        "name:zh_pinyin": "shuāng lián",
+        "network": "臺北捷運",
+        "old_ref": "R15",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R12",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q698805",
+        "wikipedia": "zh:雙連站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5206986,
+          25.057632
+        ]
+      },
+      "id": "node/3495094872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094873",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:full": "10365臺北市大同區民權西路72號",
+        "addr:housenumber": "72",
+        "addr:postcode": "10365",
+        "addr:street": "民權西路",
+        "air_conditioning": "yes",
+        "baby_feeding": "room",
+        "name": "民權西路",
+        "name:en": "Minquan W. Rd.",
+        "name:hak": "minˇ kienˇ xiˊ lu",
+        "name:ko": "민취안시루",
+        "name:nan": "Bîn-koân-se-lō͘",
+        "name:nan-HJ": "民權西路",
+        "name:nan-POJ": "Bîn-koân-se-lō͘",
+        "name:nan-TL": "Bîn-kuân-se-lōo",
+        "name:zh": "民權西路",
+        "name:zh-Hans": "民权西路",
+        "name:zh-Hant": "民權西路",
+        "name:zh_pinyin": "mín quán xī lù",
+        "network": "臺北捷運",
+        "old_ref": "R16;O9",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R13;O11",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698609",
+        "wikipedia": "zh:民權西路站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.519403,
+          25.0628506
+        ]
+      },
+      "id": "node/3495094873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094874",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:full": "10367臺北市大同區酒泉街9-1號",
+        "addr:housenumber": "9-1",
+        "addr:postcode": "10367",
+        "addr:street": "酒泉街",
+        "air_conditioning": "yes",
+        "name": "圓山",
+        "name:en": "Yuanshan",
+        "name:hak": "ienˇ sanˊ",
+        "name:ko": "위안산",
+        "name:nan": "Îⁿ-soaⁿ-á",
+        "name:nan-HJ": "圓山仔",
+        "name:nan-POJ": "Îⁿ-soaⁿ-á",
+        "name:nan-TL": "Înn-suann-á",
+        "name:zh": "圓山",
+        "name:zh-Hans": "圆山",
+        "name:zh-Hant": "圓山",
+        "name:zh_pinyin": "yuán shān",
+        "network": "臺北捷運",
+        "old_ref": "R17",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R14",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698623",
+        "wikipedia": "zh:圓山站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5201361,
+          25.0714175
+        ]
+      },
+      "id": "node/3495094874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094875",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "士林區",
+        "addr:full": "11163臺北市士林區中山北路五段65號",
+        "addr:housenumber": "65",
+        "addr:postcode": "11163",
+        "addr:state": "臺北市",
+        "addr:street": "中山北路五段",
+        "air_conditioning": "yes",
+        "baby_feeding": "room",
+        "name": "劍潭",
+        "name:en": "Jiantan",
+        "name:hak": "giam tamˇ",
+        "name:ja": "剣潭",
+        "name:ko": "젠탄",
+        "name:nan": "Kiàm-thâm",
+        "name:nan-HJ": "劍潭",
+        "name:nan-POJ": "Kiàm-thâm",
+        "name:nan-TL": "Kiàm-thâm",
+        "name:zh": "劍潭",
+        "name:zh-Hans": "剑潭",
+        "name:zh-Hant": "劍潭",
+        "name:zh_pinyin": "jiàn tán",
+        "network": "臺北捷運",
+        "old_ref": "R18A",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R15",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698433",
+        "wikipedia": "zh:劍潭站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5249806,
+          25.0842913
+        ]
+      },
+      "id": "node/3495094875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094876",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "士林區",
+        "addr:full": "11163臺北市士林區福德路1號",
+        "addr:housenumber": "1",
+        "addr:postcode": "111",
+        "addr:state": "臺北市",
+        "addr:street": "福德路",
+        "air_conditioning": "yes",
+        "name": "士林",
+        "name:en": "Shilin",
+        "name:hak": "sii limˇ",
+        "name:ko": "스린",
+        "name:nan": "Sū-lîm",
+        "name:nan-HJ": "士林",
+        "name:nan-POJ": "Sū-lîm",
+        "name:nan-TL": "Sū-lîm",
+        "name:zh": "士林",
+        "name:zh-Hans": "士林",
+        "name:zh-Hant": "士林",
+        "name:zh_pinyin": "shì lín",
+        "network": "臺北捷運",
+        "old_ref": "R20",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R16",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698614",
+        "wikipedia": "zh:士林站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5262468,
+          25.0934949
+        ]
+      },
+      "id": "node/3495094876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094877",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "士林區",
+        "addr:full": "11158臺北市士林區福國路70號",
+        "addr:housenumber": "70",
+        "addr:postcode": "11158",
+        "addr:state": "臺北市",
+        "addr:street": "福國路",
+        "air_conditioning": "yes",
+        "name": "芝山",
+        "name:en": "Zhishan",
+        "name:hak": "ziiˊ sanˊ",
+        "name:ko": "즈산",
+        "name:nan": "Chi-san",
+        "name:nan-HJ": "芝山",
+        "name:nan-POJ": "Chi-san",
+        "name:nan-TL": "Tsi-san",
+        "name:zh": "芝山",
+        "name:zh-Hans": "芝山",
+        "name:zh-Hant": "芝山",
+        "name:zh_pinyin": "zhī shān",
+        "network": "臺北捷運",
+        "old_ref": "R21",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R17",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698405",
+        "wikipedia": "zh:芝山站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5225195,
+          25.1030034
+        ]
+      },
+      "id": "node/3495094877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094878",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "北投區",
+        "addr:full": "11280臺北市北投區明德路95號",
+        "addr:housenumber": "95",
+        "addr:postcode": "11280",
+        "addr:state": "臺北市",
+        "addr:street": "明德路",
+        "air_conditioning": "yes",
+        "name": "明德",
+        "name:en": "Mingde",
+        "name:hak": "minˇ dedˋ",
+        "name:ko": "밍더",
+        "name:nan": "Bêng-tek",
+        "name:nan-HJ": "明德",
+        "name:nan-POJ": "Bêng-tek",
+        "name:nan-TL": "Bîng-tik",
+        "name:zh": "明德",
+        "name:zh-Hans": "明德",
+        "name:zh-Hant": "明德",
+        "name:zh_pinyin": "míng dé",
+        "network": "臺北捷運",
+        "old_ref": "R22",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R18",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698438",
+        "wikipedia": "zh:明德站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5187693,
+          25.1098593
+        ]
+      },
+      "id": "node/3495094878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094879",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "北投區",
+        "addr:full": "11271臺北市北投區石牌路一段200號",
+        "addr:housenumber": "200",
+        "addr:postcode": "11271",
+        "addr:state": "臺北市",
+        "addr:street": "石牌路一段",
+        "air_conditioning": "yes",
+        "alt_name": "榮總",
+        "alt_name:en": "Veterans General Hospital",
+        "name": "石牌",
+        "name:en": "Shipai",
+        "name:hak": "sag paiˇ",
+        "name:ko": "스파이",
+        "name:nan": "Chio̍h-pâi-á",
+        "name:nan-HJ": "石牌仔",
+        "name:nan-POJ": "Chio̍h-pâi-á",
+        "name:nan-TL": "Tsio̍h-pâi-á",
+        "name:zh": "石牌",
+        "name:zh-Hans": "石牌",
+        "name:zh-Hant": "石牌",
+        "name:zh_pinyin": "shí pái",
+        "network": "臺北捷運",
+        "old_ref": "R23",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R19",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698460",
+        "wikipedia": "zh:石牌站 (臺北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5155232,
+          25.1146071
+        ]
+      },
+      "id": "node/3495094879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094880",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "北投區",
+        "addr:full": "11265臺北市北投區東華街二段301號",
+        "addr:housenumber": "301",
+        "addr:postcode": "11265",
+        "addr:state": "臺北市",
+        "addr:street": "東華街二段",
+        "air_conditioning": "yes",
+        "name": "唭哩岸",
+        "name:en": "Qilian",
+        "name:hak": "kiˇ liˇ ngan",
+        "name:ko": "치리안",
+        "name:nan": "Ki-lí-gān",
+        "name:nan-HJ": "唭哩岸",
+        "name:nan-POJ": "Ki-lí-gān",
+        "name:nan-TL": "Ki-lí-gān",
+        "name:zh": "唭哩岸",
+        "name:zh-Hans": "唭哩岸",
+        "name:zh-Hant": "唭哩岸",
+        "name:zh_pinyin": "qì lǐ àn",
+        "network": "臺北捷運",
+        "old_ref": "R24",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R20",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698794",
+        "wikipedia": "zh:唭哩岸站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5061304,
+          25.1209048
+        ]
+      },
+      "id": "node/3495094880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094881",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "北投區",
+        "addr:full": "11270臺北市北投區三合街二段489號",
+        "addr:housenumber": "489",
+        "addr:postcode": "11270",
+        "addr:state": "臺北市",
+        "addr:street": "三合街二段",
+        "air_conditioning": "yes",
+        "name": "奇岩",
+        "name:en": "Qiyan",
+        "name:hak": "kiˇ ngamˇ",
+        "name:ko": "치옌",
+        "name:nan": "Kî-giâm",
+        "name:nan-HJ": "奇岩",
+        "name:nan-POJ": "Kî-giâm",
+        "name:nan-TL": "Kî-giâm",
+        "name:zh": "奇岩",
+        "name:zh-Hans": "奇岩",
+        "name:zh-Hant": "奇岩",
+        "name:zh_pinyin": "qí yán",
+        "network": "臺北捷運",
+        "old_ref": "R25",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R21",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698680",
+        "wikipedia": "zh:奇岩站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5011369,
+          25.1256031
+        ]
+      },
+      "id": "node/3495094881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094882",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "北投區",
+        "addr:full": "11246臺北市北投區光明路1號",
+        "addr:housenumber": "1",
+        "addr:postcode": "11246",
+        "addr:state": "臺北市",
+        "addr:street": "光明路",
+        "air_conditioning": "yes",
+        "name": "北投",
+        "name:en": "Beitou",
+        "name:hak": "bedˋ teuˇ",
+        "name:ko": "베이터우",
+        "name:nan": "Pak-tâu",
+        "name:nan-HJ": "北投",
+        "name:nan-POJ": "Pak-tâu",
+        "name:nan-TL": "Pak-tâu",
+        "name:zh": "北投",
+        "name:zh-Hans": "北投",
+        "name:zh-Hant": "北投",
+        "name:zh_pinyin": "běi tóu",
+        "network": "臺北捷運",
+        "old_ref": "R26",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R22",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698432",
+        "wikipedia": "zh:北投站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4985934,
+          25.1319307
+        ]
+      },
+      "id": "node/3495094882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094883",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "北投區",
+        "addr:full": "11257臺北市北投區中央北路三段53巷10號",
+        "addr:housenumber": "10",
+        "addr:postcode": "11257",
+        "addr:state": "臺北市",
+        "addr:street": "中央北路三段53巷",
+        "air_conditioning": "yes",
+        "name": "復興崗",
+        "name:en": "Fuxinggang",
+        "name:hak": "fug hinˊ gongˊ",
+        "name:ko": "푸싱강",
+        "name:nan": "Tiong-gī",
+        "name:nan-HJ": "復興崗",
+        "name:nan-POJ": "Tiong-gī",
+        "name:nan-TL": "Ho̍k-hing-kong",
+        "name:zh": "復興崗",
+        "name:zh-Hans": "复兴岗",
+        "name:zh-Hant": "復興崗",
+        "name:zh_pinyin": "fù xìng gǎng",
+        "network": "臺北捷運",
+        "old_ref": "R28",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R23",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698428",
+        "wikipedia": "zh:復興崗站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4854979,
+          25.1374895
+        ]
+      },
+      "id": "node/3495094883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094884",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "北投區",
+        "addr:full": "11257臺北市北投區中央北路四段301號",
+        "addr:housenumber": "301",
+        "addr:postcode": "11257",
+        "addr:state": "臺北市",
+        "addr:street": "中央北路四段",
+        "air_conditioning": "yes",
+        "name": "忠義",
+        "name:en": "Zhongyi",
+        "name:hak": "zungˊ ngi",
+        "name:ko": "중이",
+        "name:nan": "Kan-tāu",
+        "name:nan-HJ": "忠義",
+        "name:nan-POJ": "Kan-tāu",
+        "name:nan-TL": "Tiong-gī",
+        "name:zh": "忠義",
+        "name:zh-Hans": "忠义",
+        "name:zh-Hant": "忠義",
+        "name:zh_pinyin": "zhōng yì",
+        "network": "臺北捷運",
+        "old_ref": "R29",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R24",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698655",
+        "wikipedia": "zh:忠義站 (臺北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473374,
+          25.1309506
+        ]
+      },
+      "id": "node/3495094884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3495094885",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "北投區",
+        "addr:full": "11259臺北市北投區大度路三段296巷51號",
+        "addr:housenumber": "51",
+        "addr:postcode": "11259",
+        "addr:state": "臺北市",
+        "addr:street": "大度路三段296巷",
+        "air_conditioning": "yes",
+        "name": "關渡",
+        "name:en": "Guandu",
+        "name:hak": "guanˊ tu",
+        "name:ko": "관두",
+        "name:nan": "Kan-tāu",
+        "name:nan-HJ": "干豆",
+        "name:nan-POJ": "Kan-tāu",
+        "name:nan-TL": "Kan-tāu",
+        "name:zh": "關渡",
+        "name:zh-Hans": "关渡",
+        "name:zh-Hant": "關渡",
+        "name:zh_pinyin": "guān dù",
+        "network": "臺北捷運",
+        "old_ref": "R30",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "R25",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698594",
+        "wikipedia": "zh:關渡站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4671419,
+          25.1257006
+        ]
+      },
+      "id": "node/3495094885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3497302603",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:full": "10674臺北市大安區和平東路三段168號",
+        "addr:housenumber": "168",
+        "addr:postcode": "10674",
+        "addr:state": "臺北市",
+        "addr:street": "和平東路三段",
+        "air_conditioning": "yes",
+        "alt_name:nan": "La̍k-tiunn-lê",
+        "name": "六張犁",
+        "name:en": "Liuzhangli",
+        "name:hak": "liugˋ zongˊ laiˇ",
+        "name:ko": "류장리",
+        "name:nan": "La̍k-tiunn-lôe",
+        "name:nan-HJ": "六張犁",
+        "name:nan-POJ": "La̍k-tiunn-lôe",
+        "name:nan-TL": "La̍k-tiunn-luê",
+        "name:zh": "六張犁",
+        "name:zh-Hans": "六张犁",
+        "name:zh-Hant": "六張犁",
+        "name:zh_pinyin": "liù zhāng lí",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "phone": "+886-2-2181-2345",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR07",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "website": "http://www.metro.taipei",
+        "wheelchair": "yes",
+        "wheelchair:description": "有無障礙坡道；導盲磚；無障礙電梯；無障礙公共電話；無障礙廁所(自動門、多扶手、鏡子傾斜。)",
+        "wikidata": "Q698812",
+        "wikipedia": "zh:六張犁站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5531211,
+          25.0238183
+        ]
+      },
+      "id": "node/3497302603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3497302604",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:full": "10667臺北市大安區復興南路二段235號",
+        "addr:housenumber": "235",
+        "addr:postcode": "10667",
+        "addr:state": "臺北市",
+        "addr:street": "復興南路二段",
+        "air_conditioning": "yes",
+        "name": "科技大樓",
+        "name:en": "Technology Building",
+        "name:hak": "koˊ giˊ tai leuˇ",
+        "name:ko": "커지다러우",
+        "name:nan": "Kho-ki-tuā-lâu",
+        "name:nan-HJ": "科技大樓",
+        "name:nan-POJ": "Kho-ki-tuā-lâu",
+        "name:nan-TL": "Kho-ki Tuā-lâu",
+        "name:zh": "科技大樓",
+        "name:zh-Hans": "科技大楼",
+        "name:zh-Hant": "科技大樓",
+        "name:zh_pinyin": "kē jì dà lóu",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR08",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698396",
+        "wikipedia": "zh:科技大樓站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5434596,
+          25.0261012
+        ]
+      },
+      "id": "node/3497302604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3497302605",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:floor": "1;B1",
+        "addr:full": "台北市大安區忠孝東路三段302號;台北市大安區忠孝東路四段47號B1",
+        "addr:housenumber": "302;47",
+        "addr:postcode": "106",
+        "addr:street": "忠孝東路三段;忠孝東路四段",
+        "air_conditioning": "yes",
+        "baby_feeding": "room",
+        "name": "忠孝復興",
+        "name:en": "Zhongxiao Fuxing",
+        "name:hak": "zungˊ hau fug hinˊ",
+        "name:nan": "Tiong-hàu-ho̍k-heng",
+        "name:nan-HJ": "忠孝復興",
+        "name:nan-POJ": "Tiong-hàu-ho̍k-heng",
+        "name:nan-TL": "Tiong-hàu Ho̍k-hing",
+        "name:zh": "忠孝復興",
+        "name:zh-Hans": "忠孝复兴",
+        "name:zh-Hant": "忠孝復興",
+        "name:zh_pinyin": "zhōng xiào fù xìng",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR10;BL15",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698042",
+        "wikipedia": "zh:忠孝復興站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5437706,
+          25.0415409
+        ]
+      },
+      "id": "node/3497302605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3497302606",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:full": "10550臺北市松山區南京東路三段253號",
+        "addr:housenumber": "253",
+        "addr:postcode": "10550",
+        "addr:state": "臺北市",
+        "addr:street": "南京東路三段",
+        "air_conditioning": "yes",
+        "name": "南京復興",
+        "name:en": "Nanjing Fuxing",
+        "name:hak": "namˇ ginˊ fug hinˊ",
+        "name:ja": "南京復興",
+        "name:ko": "난징푸싱",
+        "name:nan": "Lâm-kiaⁿ-ho̍k-heng",
+        "name:nan-HJ": "南京復興",
+        "name:nan-POJ": "Lâm-kiaⁿ-ho̍k-heng",
+        "name:nan-TL": "Lâm-kiann Ho̍k-hing",
+        "name:zh": "南京復興",
+        "name:zh-Hans": "南京复兴",
+        "name:zh-Hant": "南京復興",
+        "name:zh_pinyin": "nán jīng fù xìng",
+        "network": "臺北捷運",
+        "old_name": "南京東路",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR11;G16",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698347",
+        "wikipedia": "zh:南京復興站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5439651,
+          25.051836
+        ]
+      },
+      "id": "node/3497302606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3497302607",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:full": "10476臺北市中山區復興北路376號",
+        "addr:housenumber": "376",
+        "addr:postcode": "104",
+        "addr:state": "臺北市",
+        "addr:street": "復興北路",
+        "air_conditioning": "yes",
+        "name": "中山國中",
+        "name:en": "Zhongshan Junior High School",
+        "name:hak": "zungˊ sanˊ guedˋ zungˊ",
+        "name:ko": "중산중학교",
+        "name:nan": "Tiong-san-kok-tiong",
+        "name:nan-HJ": "中山國中",
+        "name:nan-POJ": "Tiong-san-kok-tiong",
+        "name:nan-TL": "Tiong-san Kok-tiong",
+        "name:zh": "中山國中",
+        "name:zh-Hans": "中山国中",
+        "name:zh-Hant": "中山國中",
+        "name:zh_pinyin": "zhōng shān guó zhōng",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR12",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698100",
+        "wikipedia": "zh:中山國中站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5442019,
+          25.0606868
+        ]
+      },
+      "id": "node/3497302607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3497302608",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:full": "10576臺北市松山區敦化北路338號",
+        "addr:housenumber": "338",
+        "addr:postcode": "10576",
+        "addr:state": "臺北市",
+        "addr:street": "敦化北路",
+        "air_conditioning": "yes",
+        "baby_feeding": "room",
+        "name": "松山機場",
+        "name:en": "Songshan Airport",
+        "name:hak": "qiungˇ sanˊ giˊ congˇ",
+        "name:ko": "쑹산공항",
+        "name:nan": "Siông-san-ki-tiûⁿ",
+        "name:nan-HJ": "松山機場",
+        "name:nan-POJ": "Siông-san-ki-tiûⁿ",
+        "name:nan-TL": "Siông-san Ki-tiûnn",
+        "name:zh": "松山機場",
+        "name:zh-Hans": "松山机场",
+        "name:zh-Hant": "松山機場",
+        "name:zh_pinyin": "sōng shān jī chǎng",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR13",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q699690",
+        "wikipedia": "zh:松山機場站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5516137,
+          25.063086
+        ]
+      },
+      "id": "node/3497302608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3497302610",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:full": "10464臺北市中山區北安路798號",
+        "addr:housenumber": "798",
+        "addr:postcode": "10464",
+        "addr:street": "北安路",
+        "air_conditioning": "yes",
+        "alt_name": "美麗華",
+        "alt_name:en": "Miramar",
+        "name": "劍南路",
+        "name:en": "Jiannan Road",
+        "name:hak": "giam namˇ lu",
+        "name:ko": "젠난루",
+        "name:nan": "Kiàm-lâm-lō͘",
+        "name:nan-HJ": "劍南路",
+        "name:nan-POJ": "Kiàm-lâm-lō͘",
+        "name:nan-TL": "Kiàm-lâm-lōo",
+        "name:zh": "劍南路",
+        "name:zh-Hans": "剑南路",
+        "name:zh-Hant": "劍南路",
+        "name:zh_pinyin": "jiàn nán lù",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR15",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q699520",
+        "wikipedia": "zh:劍南路站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5556538,
+          25.0848706
+        ]
+      },
+      "id": "node/3497302610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3501186374",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "內湖區",
+        "addr:full": "11446臺北市內湖區內湖路一段663號",
+        "addr:housenumber": "663",
+        "addr:postcode": "11446",
+        "addr:street": "內湖路一段",
+        "air_conditioning": "yes",
+        "name": "港墘",
+        "name:en": "Gangqian",
+        "name:hak": "gongˋ kienˇ",
+        "name:ko": "강첸",
+        "name:nan": "Káng-kîⁿ",
+        "name:nan-HJ": "港墘",
+        "name:nan-POJ": "Káng-kîⁿ",
+        "name:nan-TL": "Káng-kînn",
+        "name:zh": "港墘",
+        "name:zh-Hans": "港墘",
+        "name:zh-Hant": "港墘",
+        "name:zh_pinyin": "gǎng qián",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR17",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q699932",
+        "wikipedia": "zh:港墘站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5753301,
+          25.0800673
+        ]
+      },
+      "id": "node/3501186374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3501186375",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "內湖區",
+        "addr:full": "11475臺北市內湖區文德路214號",
+        "addr:housenumber": "214",
+        "addr:postcode": "11475",
+        "addr:state": "臺北市",
+        "addr:street": "文德路",
+        "air_conditioning": "yes",
+        "alt_name": "碧湖公園",
+        "alt_name:en": "Bihu Park",
+        "name": "文德",
+        "name:en": "Wende",
+        "name:hak": "vunˇ dedˋ",
+        "name:ko": "원더",
+        "name:nan": "Bûn-tek",
+        "name:nan-HJ": "文德",
+        "name:nan-POJ": "Bûn-tek",
+        "name:nan-TL": "Bûn-tik",
+        "name:zh": "文德",
+        "name:zh-Hans": "文德",
+        "name:zh-Hant": "文德",
+        "name:zh_pinyin": "wén dé",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR18",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q699296",
+        "wikipedia": "zh:文德站 (台灣)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5849416,
+          25.0785562
+        ]
+      },
+      "id": "node/3501186375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3501186376",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "內湖區",
+        "addr:full": "11477臺北市內湖區成功路五段11號",
+        "addr:housenumber": "11",
+        "addr:postcode": "11477",
+        "addr:state": "臺北市",
+        "addr:street": "成功路五段",
+        "air_conditioning": "yes",
+        "name": "大湖公園",
+        "name:en": "Dahu Park",
+        "name:hak": "tai fuˇ gungˊ ienˇ",
+        "name:ko": "다후공원",
+        "name:nan": "Tōa-ô͘-kong-hn̂g",
+        "name:nan-HJ": "大湖公園",
+        "name:nan-POJ": "Tōa-ô͘-kong-hn̂g",
+        "name:nan-TL": "Tuā-ôo Kong-hn̂g",
+        "name:zh": "大湖公園",
+        "name:zh-Hans": "大湖公园",
+        "name:zh-Hant": "大湖公園",
+        "name:zh_pinyin": "dà hú gōng yuán",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR20",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q699472",
+        "wikipedia": "zh:大湖公園站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6023504,
+          25.0837705
+        ]
+      },
+      "id": "node/3501186376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3501186377",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "內湖區",
+        "addr:full": "11486臺北市內湖區康寧路3段16號",
+        "addr:housenumber": "16",
+        "addr:postcode": "11486",
+        "addr:state": "臺北市",
+        "addr:street": "康寧路三段",
+        "air_conditioning": "yes",
+        "name": "葫洲",
+        "name:en": "Huzhou",
+        "name:hak": "fuˇ zuˊ",
+        "name:ko": "후저우",
+        "name:nan": "Ô͘-chiu",
+        "name:nan-HJ": "葫洲",
+        "name:nan-POJ": "Ô͘-chiu",
+        "name:nan-TL": "Oô-tsiu",
+        "name:zh": "葫洲",
+        "name:zh-Hans": "葫洲",
+        "name:zh-Hant": "葫洲",
+        "name:zh_pinyin": "hú zhōu",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR21",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q699944",
+        "wikipedia": "zh:葫洲站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6073633,
+          25.0726385
+        ]
+      },
+      "id": "node/3501186377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3501186378",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "內湖區",
+        "addr:full": "11486臺北市內湖區康寧路三段235號",
+        "addr:housenumber": "235",
+        "addr:postcode": "11486",
+        "addr:state": "臺北市",
+        "addr:street": "康寧路三段",
+        "air_conditioning": "yes",
+        "name": "東湖",
+        "name:en": "Donghu",
+        "name:hak": "dungˊ fuˇ",
+        "name:ko": "둥후",
+        "name:nan": "Tang-ô͘",
+        "name:nan-HJ": "東湖",
+        "name:nan-POJ": "Tang-ô͘",
+        "name:nan-TL": "Tang-ôo",
+        "name:zh": "東湖",
+        "name:zh-Hans": "东湖",
+        "name:zh-Hant": "東湖",
+        "name:zh_pinyin": "dōng hú",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR22",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q699938",
+        "wikipedia": "zh:東湖站 (臺北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6116839,
+          25.0673975
+        ]
+      },
+      "id": "node/3501186378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3501186379",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "南港區",
+        "addr:full": "11568臺北市南港區經貿二路183號",
+        "addr:housenumber": "183",
+        "addr:postcode": "11568",
+        "addr:state": "臺北市",
+        "addr:street": "經貿二路",
+        "air_conditioning": "yes",
+        "name": "南港軟體園區",
+        "name:en": "Nangang Software Park",
+        "name:hak": "namˇ gongˋ ngionˊ tiˋ ienˇ kiˊ",
+        "name:ko": "난강소프트웨어단지",
+        "name:nan": "Lâm-káng-nńg-thé-hn̂g-khu",
+        "name:nan-HJ": "南港軟體園區",
+        "name:nan-POJ": "Lâm-káng-nńg-thé-hn̂g-khu",
+        "name:nan-TL": "Lâm-káng Nńg-thé Hn̂g-khu",
+        "name:zh": "南港軟體園區",
+        "name:zh-Hans": "南港软体园区",
+        "name:zh-Hant": "南港軟體園區",
+        "name:zh_pinyin": "nán gǎng ruǎn tǐ yuán qū",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "proposed:name": "經貿北站",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR23",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q115445",
+        "wikipedia": "zh:南港軟體園區站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6159145,
+          25.0599554
+        ]
+      },
+      "id": "node/3501186379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3501186380",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "南港區",
+        "addr:full": "11568臺北市南港區南港路一段32號",
+        "addr:housenumber": "32",
+        "addr:postcode": "11568",
+        "addr:state": "臺北市",
+        "addr:street": "南港路一段",
+        "baby_feeding": "room",
+        "name": "南港展覽館",
+        "name:en": "Taipei Nangang Exhibition Center",
+        "name:hak": "namˇ gongˋ zanˋ lam gonˋ",
+        "name:ko": "난강전람관",
+        "name:nan": "Lâm-káng Tián-lám-koán",
+        "name:nan-HJ": "南港展覽館",
+        "name:nan-POJ": "Lâm-káng Tián-lám-koán",
+        "name:nan-TL": "Lâm-káng Tián-lám-kuán",
+        "name:zh": "南港展覽館",
+        "name:zh-Hans": "南港展览馆",
+        "name:zh-Hant": "南港展覽館",
+        "name:zh_pinyin": "nán gǎng zhǎn lǎn guǎn",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "proposed:name": "經貿南站",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BR24",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q699465",
+        "wikipedia": "zh:南港展覽館站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.617896,
+          25.0553158
+        ]
+      },
+      "id": "node/3501186380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3512275767",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:housenumber": "2",
+        "addr:postcode": "110",
+        "addr:street": "忠孝東路五段",
+        "air_conditioning": "yes",
+        "baby_feeding": "room",
+        "name": "市政府",
+        "name:en": "Taipei City Hall",
+        "name:hak": "sii ziin fuˋ",
+        "name:nan": "Chhī-chèng-hú",
+        "name:nan-HJ": "市政府",
+        "name:nan-POJ": "Chhī-chèng-hú",
+        "name:nan-TL": "Tshī-tsìng-hú",
+        "name:zh": "市政府",
+        "name:zh-Hans": "市政府",
+        "name:zh-Hant": "市政府",
+        "name:zh_pinyin": "shì zhèng fǔ",
+        "network": "臺北捷運",
+        "old_ref": "BL13",
+        "operator": "臺北大眾捷運股份有限公司",
+        "postal_code": "11071",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BL18",
+        "start_date": "1999-12-24",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q697995",
+        "wikipedia": "zh:市政府站 (臺北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5660998,
+          25.0411283
+        ]
+      },
+      "id": "node/3512275767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3530915061",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:full": "11674臺北市文山區羅斯福路六段393號",
+        "addr:housenumber": "216",
+        "addr:postcode": "11674",
+        "addr:street": "羅斯福路六段",
+        "air_conditioning": "yes",
+        "internet_access": "wlan",
+        "name": "景美",
+        "name:en": "Jingmei",
+        "name:hak": "ginˋ miˊ",
+        "name:nan": "Kíng-bé",
+        "name:nan-HJ": "梘尾",
+        "name:nan-POJ": "Kíng-bé",
+        "name:nan-TL": "Kíng-bé",
+        "name:zh": "景美",
+        "name:zh-Hans": "景美",
+        "name:zh-Hant": "景美",
+        "name:zh_pinyin": "jǐng měi",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "G05",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q698670",
+        "wikipedia": "zh:景美站 (台北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5408198,
+          24.992978
+        ]
+      },
+      "id": "node/3530915061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3530915062",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:full": "11678臺北市文山區羅斯福路五段214號",
+        "addr:housenumber": "214",
+        "addr:postcode": "11678",
+        "addr:street": "羅斯福路五段",
+        "air_conditioning": "yes",
+        "name": "萬隆",
+        "name:en": "Wanlong",
+        "name:hak": "van lungˇ",
+        "name:nan": "Bān-liông",
+        "name:nan-HJ": "萬隆",
+        "name:nan-POJ": "Bān-liông",
+        "name:nan-TL": "Bān-liông",
+        "name:zh": "萬隆",
+        "name:zh-Hans": "万隆",
+        "name:zh-Hant": "萬隆",
+        "name:zh_pinyin": "wàn lóng",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "G06",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q698450",
+        "wikipedia": "zh:萬隆站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5389958,
+          25.001899
+        ]
+      },
+      "id": "node/3530915062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3530915063",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "-1",
+        "addr:full": "10091臺北市中正區羅斯福路四段74號B1",
+        "addr:housenumber": "74",
+        "addr:postcode": "10091",
+        "addr:street": "羅斯福路四段",
+        "air_conditioning": "yes",
+        "alt_name": "台灣大學",
+        "alt_name:en": "National Taiwan University",
+        "alt_name:zh": "台灣大學",
+        "name": "公館",
+        "name:en": "Gongguan",
+        "name:hak": "gungˊ gonˋ",
+        "name:ja": "公館",
+        "name:ko": "궁관",
+        "name:nan": "Kong-koán",
+        "name:nan-HJ": "公館",
+        "name:nan-POJ": "Kong-koán",
+        "name:nan-TL": "Kong-kuán",
+        "name:zh": "公館",
+        "name:zh-Hans": "公馆",
+        "name:zh-Hant": "公館",
+        "name:zh_pinyin": "gōng guǎn",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "G07",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q708397",
+        "wikipedia": "zh:公館站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.534264,
+          25.0149166
+        ]
+      },
+      "id": "node/3530915063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3578751641",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "-1",
+        "addr:housenumber": "58",
+        "addr:postcode": "10049",
+        "addr:street": "忠孝東路一段",
+        "air_conditioning": "yes",
+        "name": "善導寺",
+        "name:en": "Shandao Temple",
+        "name:hak": "san toˊsii",
+        "name:nan": "Siān-tō-sī",
+        "name:nan-HJ": "善導寺",
+        "name:nan-POJ": "Siān-tō-sī",
+        "name:nan-TL": "Siān-tō-sī",
+        "name:zh": "善導寺",
+        "name:zh-Hans": "善导寺",
+        "name:zh-Hant": "善導寺",
+        "name:zh_pinyin": "shàn dǎo sì",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BL13",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698356",
+        "wikipedia": "zh:善導寺站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5234226,
+          25.0447619
+        ]
+      },
+      "id": "node/3578751641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3639530941",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "南港區",
+        "addr:housenumber": "380",
+        "addr:postcode": "11561",
+        "addr:street": "忠孝東路七段",
+        "air_conditioning": "yes",
+        "is_in:zh": "台灣台北市",
+        "name": "南港",
+        "name:en": "Nangang",
+        "name:hak": "namˇ gongˋ",
+        "name:ja": "南港",
+        "name:ko": "난강",
+        "name:nan": "Lâm-káng",
+        "name:nan-HJ": "南港",
+        "name:nan-POJ": "Lâm-káng",
+        "name:nan-TL": "Lâm-káng",
+        "name:zh": "南港",
+        "name:zh-Hans": "南港",
+        "name:zh-Hant": "南港",
+        "name:zh_pinyin": "nán gǎng",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BL22",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698337",
+        "wikipedia": "zh:南港車站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6071894,
+          25.0521168
+        ]
+      },
+      "id": "node/3639530941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3639530942",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:housenumber": "400",
+        "addr:postcode": "11072",
+        "addr:street": "忠孝東路四段",
+        "air_conditioning": "yes",
+        "name": "國父紀念館",
+        "name:en": "Sun Yat-Sen Memorial Hall",
+        "name:hak": "guedˋ fu gi ngiam gonˋ",
+        "name:nan": "Kok-hū kì-liām-koán",
+        "name:nan-HJ": "國父紀念館",
+        "name:nan-POJ": "Kok-hū kì-liām-koán",
+        "name:nan-TL": "Kok-hū Kì-liām-kuán",
+        "name:zh": "國父紀念館",
+        "name:zh-Hans": "国父纪念馆",
+        "name:zh-Hant": "國父紀念館",
+        "name:zh_pinyin": "guó fù jì niàn guǎn",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BL17",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698382",
+        "wikipedia": "zh:國父紀念館站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5573918,
+          25.0413418
+        ]
+      },
+      "id": "node/3639530942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3639530944",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "南港區",
+        "addr:housenumber": "2",
+        "addr:postcode": "11575",
+        "addr:street": "忠孝東路六段",
+        "air_conditioning": "yes",
+        "alt_name": "捷運後山埤站;五分埔商圈",
+        "alt_name:en": "MRT Houshanpi Station;Wufenpu Commercial Zone",
+        "alt_name:nan": "Chia̍t-ūn Āu-soaⁿ-pi chām",
+        "alt_name:nan-HJ": "捷運後山埤站;五分埔商圈",
+        "alt_name:nan-POJ": "Chia̍t-ūn Āu-soaⁿ-pi chām",
+        "alt_name:nan-TL": "Tsia̍t-ūn Āu-suann-pi tsām",
+        "alt_name:zh": "捷運後山埤站;五分埔商圈",
+        "name": "後山埤",
+        "name:en": "Houshanpi",
+        "name:hak": "heu sanˊ biˊ",
+        "name:nan": "Āu-soaⁿ-pi",
+        "name:nan-HJ": "後山埤",
+        "name:nan-POJ": "Āu-soaⁿ-pi",
+        "name:nan-TL": "Āu-suann-pi",
+        "name:zh": "後山埤",
+        "name:zh-Hans": "后山埤",
+        "name:zh-Hant": "後山埤",
+        "name:zh_pinyin": "hòu shān pí",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BL20",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698675",
+        "wikipedia": "zh:後山埤站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5823418,
+          25.0447285
+        ]
+      },
+      "id": "node/3639530944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3639530945",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "182",
+        "addr:postcode": "10686",
+        "addr:street": "忠孝東路四段",
+        "air_conditioning": "yes",
+        "name": "忠孝敦化",
+        "name:en": "Zhongxiao Dunhua",
+        "name:hak": "zungˊ hau dunˊ fa",
+        "name:nan": "Tiong-hàu Tun-hòa",
+        "name:nan-HJ": "忠孝敦化",
+        "name:nan-POJ": "Tiong-hàu Tun-hòa",
+        "name:nan-TL": "Tiong-hàu Tun-huà",
+        "name:zh": "忠孝敦化",
+        "name:zh-Hans": "忠孝敦化",
+        "name:zh-Hant": "忠孝敦化",
+        "name:zh_pinyin": "zhōng xiào dūn huà",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BL16",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698589",
+        "wikipedia": "zh:忠孝敦化站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.549479,
+          25.0415086
+        ]
+      },
+      "id": "node/3639530945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3639530947",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "南港區",
+        "addr:housenumber": "451",
+        "addr:postcode": "11558",
+        "addr:street": "忠孝東路六段",
+        "air_conditioning": "yes",
+        "name": "昆陽",
+        "name:en": "Kunyang",
+        "name:hak": "kunˊ iongˇ",
+        "name:nan": "Khun-iông",
+        "name:nan-HJ": "昆陽",
+        "name:nan-POJ": "Khun-iông",
+        "name:nan-TL": "Khun-iông",
+        "name:zh": "昆陽",
+        "name:zh-Hans": "昆阳",
+        "name:zh-Hant": "昆陽",
+        "name:zh_pinyin": "kūn yáng",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BL21",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698774",
+        "wikipedia": "zh:昆陽站 (台北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5933161,
+          25.0504897
+        ]
+      },
+      "id": "node/3639530947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3639530949",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:housenumber": "455",
+        "addr:postcode": "11061",
+        "addr:street": "忠孝東路五段",
+        "air_conditioning": "yes",
+        "alt_name": "捷運永春站",
+        "alt_name:en": "MRT Yongchun Station",
+        "alt_name:nan": "Chia̍t-ūn Éng-chhun chām",
+        "alt_name:nan-HJ": "捷運永春站",
+        "alt_name:nan-POJ": "Chia̍t-ūn Éng-chhun chām",
+        "alt_name:nan-TL": "Tsia̍t-ūn Íng-tshun tsām",
+        "alt_name:zh": "捷運永春站",
+        "name": "永春",
+        "name:en": "Yongchun",
+        "name:hak": "iunˋ cunˊ",
+        "name:nan": "Éng-chhun",
+        "name:nan-HJ": "永春",
+        "name:nan-POJ": "Éng-chhun",
+        "name:nan-TL": "Íng-tshun",
+        "name:uk": "Юнчунь",
+        "name:zh": "永春",
+        "name:zh-Hans": "永春",
+        "name:zh-Hant": "永春",
+        "name:zh_pinyin": "yǒng chūn",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BL19",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q698799",
+        "wikipedia": "zh:永春站 (台北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5757045,
+          25.0408761
+        ]
+      },
+      "id": "node/3639530949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3639530979",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "B1",
+        "addr:full": "台北市中正區寶慶路32之1號B1",
+        "addr:housenumber": "32之1",
+        "addr:postcode": "100",
+        "addr:street": "寶慶路",
+        "air_conditioning": "yes",
+        "baby_feeding": "room",
+        "internet_access": "wlan",
+        "internet_access:ssid": "TPE-Free",
+        "name": "西門",
+        "name:en": "Ximen",
+        "name:hak": "xiˊ munˇ",
+        "name:ja": "西門",
+        "name:nan": "Se-mn̂g",
+        "name:nan-HJ": "西門",
+        "name:nan-POJ": "Se-mn̂g",
+        "name:nan-TL": "Se-mn̂g",
+        "name:zh": "西門",
+        "name:zh-Hans": "西门",
+        "name:zh-Hant": "西門",
+        "name:zh_pinyin": "xī mén",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "G12;BL11",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698004",
+        "wikipedia": "zh:西門站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5086081,
+          25.0427128
+        ]
+      },
+      "id": "node/3639530979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3639530981",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "萬華區",
+        "addr:floor": "B1",
+        "addr:full": "台北市萬華區西園路一段153號B1",
+        "addr:housenumber": "153",
+        "addr:postcode": "108",
+        "addr:street": "西園路一段",
+        "air_conditioning": "yes",
+        "name": "龍山寺",
+        "name:en": "Longshan Temple",
+        "name:hak": "liungˇ sanˊ sii",
+        "name:ja": "龍山駅",
+        "name:nan": "Liông-san-sī",
+        "name:nan-HJ": "龍山寺",
+        "name:nan-POJ": "Liông-san-sī",
+        "name:nan-TL": "Liông-san-sī",
+        "name:zh": "龍山寺",
+        "name:zh-Hans": "龙山寺",
+        "name:zh-Hant": "龍山寺",
+        "name:zh_pinyin": "lóng shān sì",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BL10",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698620",
+        "wikipedia": "zh:龍山寺站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4995813,
+          25.0352844
+        ]
+      },
+      "id": "node/3639530981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3799089099",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:full": "10041臺北市中正區北平西路3號",
+        "addr:housenumber": "3",
+        "addr:postcode": "10041",
+        "addr:street": "北平西路",
+        "alt_name:nan": "(Tâi-pak)",
+        "alt_name:zh_pinyin": "Táiběi",
+        "name": "臺北",
+        "name:en": "Taipei",
+        "name:hak": "toiˇ bedˋ",
+        "name:hak-HJ": "臺北",
+        "name:ja": "台北",
+        "name:ko": "타이베이",
+        "name:nan": "Tâi-pak",
+        "name:nan-HJ": "臺北",
+        "name:nan-POJ": "Tâi-pak",
+        "name:nan-TL": "Tâi-pak",
+        "name:zh": "臺北",
+        "name:zh-Hans": "台北",
+        "name:zh-Hant": "臺北",
+        "name:zh_pinyin": "tái běi",
+        "operator": "臺灣鐵路管理局",
+        "phone": "+886 2 2371 3558;+886 2 2311 1024",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "1000",
+        "start_date": "1891-10-20",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "website": "https://www.railway.gov.tw/taipei/",
+        "wheelchair": "yes",
+        "wikidata": "Q700588",
+        "wikipedia": "zh:臺北車站",
+        "wikipedia:en": "Taipei main station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5170046,
+          25.0479308
+        ]
+      },
+      "id": "node/3799089099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3812564391",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:floor": "B1",
+        "addr:full": "台北市中山區民權東路一段71號B1",
+        "addr:housenumber": "71",
+        "addr:postcode": "104",
+        "addr:street": "民權東路一段",
+        "air_conditioning": "yes",
+        "alt_name": "晴光商圈",
+        "alt_name:en": "Qingguang Commercial Zone",
+        "name": "中山國小",
+        "name:en": "Zhongshan Elementary School",
+        "name:hak": "zungˊ sanˊ guedˋ seuˋ",
+        "name:nan": "Tiong-san-kok-sió",
+        "name:nan-HJ": "中山國小",
+        "name:nan-POJ": "Tiong-san-kok-sió",
+        "name:nan-TL": "Tiong-san Kok-sió",
+        "name:zh": "中山國小",
+        "name:zh-Hans": "中山国小",
+        "name:zh-Hant": "中山國小",
+        "name:zh_pinyin": "zhōng shān guó xiǎo",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "O10",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q5933196",
+        "wikipedia": "zh:中山國小站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5265984,
+          25.062674
+        ]
+      },
+      "id": "node/3812564391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3812564394",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:full": "10569臺北市松山區南京東路五段237號",
+        "addr:housenumber": "237",
+        "addr:postcode": "10569",
+        "addr:street": "南京東路五段",
+        "air_conditioning": "yes",
+        "name": "南京三民",
+        "name:en": "Nanjing Sanmin",
+        "name:hak": "namˇ ginˊ samˊ minˇ",
+        "name:ja": "南京三民",
+        "name:ko": "난징산민",
+        "name:nan": "Lâm-kiaⁿ-sam-bîn",
+        "name:nan-HJ": "南京三民",
+        "name:nan-POJ": "Lâm-kiaⁿ-sam-bîn",
+        "name:nan-TL": "Lâm-kiann Sam-bîn",
+        "name:zh": "南京三民",
+        "name:zh-Hans": "南京三民",
+        "name:zh-Hant": "南京三民",
+        "name:zh_pinyin": "nán jīng sān mín",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "G18",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "limited",
+        "wikidata": "Q6963682",
+        "wikipedia": "zh:南京三民站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5643061,
+          25.0514279
+        ]
+      },
+      "id": "node/3812564394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3812564396",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "-1",
+        "addr:housenumber": "164-1",
+        "addr:postcode": "10084",
+        "addr:street": "羅斯福路二段",
+        "air_conditioning": "yes",
+        "baby_feeding": "room",
+        "name": "古亭",
+        "name:en": "Guting",
+        "name:hak": "guˋ tinˇ",
+        "name:ja": "古亭",
+        "name:nan": "Kó͘-têng",
+        "name:nan-HJ": "古亭",
+        "name:nan-POJ": "Kó͘-têng",
+        "name:nan-TL": "Kóo-tîng",
+        "name:zh": "古亭",
+        "name:zh-Hans": "古亭",
+        "name:zh-Hant": "古亭",
+        "name:zh_pinyin": "gǔ tíng",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "O05;G09",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698599",
+        "wikipedia": "zh:古亭站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522492,
+          25.0269376
+        ]
+      },
+      "id": "node/3812564396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3812564397",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:full": "台北市松山區南京東路四段10之1號",
+        "addr:housenumber": "10之1",
+        "addr:postcode": "105",
+        "addr:street": "南京東路四段",
+        "air_conditioning": "yes",
+        "name": "台北小巨蛋",
+        "name:en": "Taipei Arena",
+        "name:hak": "toiˇ bedˋ seuˋ kiˊ tan",
+        "name:ja": "台北アリーナ",
+        "name:nan": "Tâi-pak-sió-kī-tàn",
+        "name:nan-HJ": "臺北小巨蛋",
+        "name:nan-POJ": "Tâi-pak-sió-kī-tàn",
+        "name:nan-TL": "Tâi-pak Sió-kū-tàn",
+        "name:zh": "台北小巨蛋",
+        "name:zh-Hans": "台北小巨蛋",
+        "name:zh-Hant": "臺北小巨蛋",
+        "name:zh_pinyin": "tái běi xiǎo jù dàn",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "G17",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q7676270",
+        "wikipedia": "zh:台北小巨蛋站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5514989,
+          25.0516857
+        ]
+      },
+      "id": "node/3812564397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3812564398",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:floor": "B1",
+        "addr:full": "台北市大同區民權西路223號B1",
+        "addr:housenumber": "223",
+        "addr:postcode": "10357",
+        "addr:street": "民權西路",
+        "air_conditioning": "yes",
+        "alt_name": "大橋國小",
+        "alt_name:en": "Daqiao Elementary School",
+        "baby_feeding": "room",
+        "description": "往迴龍\\蘆洲方向換車站",
+        "name": "大橋頭",
+        "name:en": "Daqiaotou",
+        "name:hak": "tai kieuˇ teuˇ",
+        "name:nan": "Tōa-kiô-thâu",
+        "name:nan-HJ": "大橋頭",
+        "name:nan-POJ": "Tōa-kiô-thâu",
+        "name:nan-TL": "Tuā-kiô-thâu",
+        "name:zh": "大橋頭",
+        "name:zh-Hans": "大桥头",
+        "name:zh-Hant": "大橋頭",
+        "name:zh_pinyin": "dà qiáo tóu",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "O12",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wheelchair:description": "3號出口電梯",
+        "wikidata": "Q699528",
+        "wikipedia": "zh:大橋頭站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5126944,
+          25.063198
+        ]
+      },
+      "id": "node/3812564398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3812564399",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:floor": "B1",
+        "addr:full": "台北市中正區愛國西路22號B1",
+        "addr:housenumber": "22",
+        "addr:postcode": "100",
+        "addr:street": "愛國西路",
+        "air_conditioning": "yes",
+        "name": "小南門",
+        "name:en": "Xiaonanmen",
+        "name:hak": "seuˋ namˇ munˇ",
+        "name:nan": "Sió-lâm-mn̂g",
+        "name:nan-HJ": "小南門",
+        "name:nan-POJ": "Sió-lâm-mn̂g",
+        "name:nan-TL": "Sió-lâm-mn̂g",
+        "name:zh": "小南門",
+        "name:zh-Hans": "小南门",
+        "name:zh-Hant": "小南門",
+        "name:zh_pinyin": "xiǎo nán mén",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "G11",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698767",
+        "wikipedia": "zh:小南門站 (臺北市)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5108064,
+          25.035901
+        ]
+      },
+      "id": "node/3812564399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3812564401",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:housenumber": "67",
+        "addr:postcode": "10652",
+        "addr:street": "新生南路一段",
+        "air_conditioning": "yes",
+        "alt_name": "台北科大",
+        "alt_name:en": "National Taipei University of Technology",
+        "baby_feeding": "room",
+        "name": "忠孝新生",
+        "name:en": "Zhongxiao Xinsheng",
+        "name:hak": "zungˊ hau xinˊ senˊ",
+        "name:nan": "Tiong-hàu Sin-seng",
+        "name:nan-HJ": "忠孝新生",
+        "name:nan-POJ": "Tiong-hàu Sin-seng",
+        "name:nan-TL": "Tiong-hàu Sin-sing",
+        "name:zh": "忠孝新生",
+        "name:zh-Hans": "忠孝新生",
+        "name:zh-Hant": "忠孝新生",
+        "name:zh_pinyin": "zhōng xiào xīn shēng",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BL14;O07",
+        "station": "subway",
+        "subway": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited",
+        "wheelchair:description": "5號出口有無障礙坡道 獨立式無障礙廁所(內含哺乳室)",
+        "wikidata": "Q698343",
+        "wikipedia": "zh:忠孝新生站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5328383,
+          25.04229
+        ]
+      },
+      "id": "node/3812564401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3812564404",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:full": "10567臺北市松山區八德路四段742號",
+        "addr:housenumber": "742",
+        "addr:postcode": "10567",
+        "addr:street": "八德路四段",
+        "air_conditioning": "yes",
+        "name": "松山",
+        "name:en": "Songshan",
+        "name:hak": "qiungˇ sanˊ",
+        "name:ja": "松山",
+        "name:ko": "쑹산",
+        "name:nan": "Siong-san",
+        "name:nan-HJ": "松山",
+        "name:nan-POJ": "Siong-san",
+        "name:nan-TL": "Siông-san",
+        "name:zh": "松山",
+        "name:zh-Hans": "松山",
+        "name:zh-Hant": "松山",
+        "name:zh_pinyin": "sōng shān",
+        "network": "臺北捷運",
+        "operator": "臺北大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "G19",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q7561635",
+        "wikipedia": "zh:松山車站 (台灣)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5774743,
+          25.0500706
+        ]
+      },
+      "id": "node/3812564404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3933501987",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:housenumber": "3",
+        "addr:postcode": "100",
+        "addr:street": "北平西路",
+        "alt_name": "高鐵台北站",
+        "alt_name:en": "THSR Taipei Station",
+        "alt_name:zh": "高鐵台北站",
+        "name": "台北",
+        "name:en": "Taipei",
+        "name:ja": "台北",
+        "name:ko": "타이베이",
+        "name:nan": "Tâi-pak",
+        "name:nan-HJ": "台北",
+        "name:nan-POJ": "Tâi-pak",
+        "name:nan-TL": "Tâi-pak",
+        "name:zh": "台北",
+        "name:zh_pinyin": "Táiběi",
+        "network": "台灣高鐵",
+        "network:en": "THSR",
+        "operator": "台灣高速鐵路股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "start_date": "2007-03-02",
+        "station": "train",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q700588",
+        "wikipedia": "zh:臺北車站",
+        "wikipedia:en": "Taipei main station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5170503,
+          25.047554
+        ]
+      },
+      "id": "node/3933501987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4275358087",
+        "alt_name": "高鐵南港站",
+        "alt_name:en": "THSR Nangang Station",
+        "alt_name:zh": "高鐵南港站",
+        "is_in:zh": "台灣台北市",
+        "name": "南港",
+        "name:en": "Nangang",
+        "name:hak": "namˇ gongˋ",
+        "name:hak-HJ": "南港",
+        "name:ja": "南港",
+        "name:ko": "난강",
+        "name:nan": "Lâm-káng",
+        "name:nan-HJ": "南港",
+        "name:nan-POJ": "Lâm-káng",
+        "name:nan-TL": "Lâm-káng",
+        "name:zh": "南港",
+        "name:zh-Hans": "南港",
+        "name:zh-Hant": "南港",
+        "name:zh_pinyin": "nán gǎng",
+        "network": "台灣高鐵",
+        "network:en": "THSR",
+        "operator": "台灣高速鐵路股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "start_date": "2016-07-01",
+        "station": "train",
+        "toilets:wheelchair": "yes",
+        "train": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q698337",
+        "wikipedia": "zh:南港車站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6071342,
+          25.053238
+        ]
+      },
+      "id": "node/4275358087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4275358088",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "南港區",
+        "addr:full": "臺北市南港區南港里南港路一段313號",
+        "addr:housenumber": "313",
+        "addr:street": "南港路一段",
+        "alt_name:nan": "(Lâm-káng)",
+        "alt_name:zh_pinyin": "Nángǎng Zhàn",
+        "is_in:zh": "台灣台北市",
+        "name": "南港",
+        "name:en": "Nangang",
+        "name:hak": "namˇ gongˋ",
+        "name:hak-HJ": "南港",
+        "name:ja": "南港",
+        "name:ko": "난강",
+        "name:nan": "Lâm-káng",
+        "name:nan-HJ": "南港",
+        "name:nan-POJ": "Lâm-káng",
+        "name:nan-TL": "Lâm-káng",
+        "name:zh": "南港",
+        "name:zh-Hans": "南港",
+        "name:zh-Hant": "南港",
+        "name:zh_pinyin": "nán gǎng",
+        "network": "臺鐵",
+        "network:en": "TRA",
+        "operator": "臺灣鐵路管理局",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "980",
+        "train": "yes",
+        "wikidata": "Q698337",
+        "wikipedia": "zh:南港車站"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6072576,
+          25.0528686
+        ]
+      },
+      "id": "node/4275358088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653351592",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:full": "臺北市中正區鄭州路8號",
+        "addr:housenumber": "8",
+        "addr:street": "鄭州路",
+        "alt_name": "A1台北車站",
+        "name": "台北車站",
+        "name:en": "Taipei main station",
+        "name:hak": "toiˇ bedˋ caˊ zam",
+        "name:ja": "台北駅",
+        "name:ko": "타이베이역",
+        "name:nan": "Tâi-pak Chhia-chām",
+        "name:nan-HJ": "臺北車站",
+        "name:nan-POJ": "Tâi-pak Chhia-chām",
+        "name:nan-TL": "Tâi-pak Tshia-tsām",
+        "name:zh": "台北車站",
+        "name:zh-Hans": "台北车站",
+        "name:zh-Hant": "臺北車站",
+        "name:zh_pinyin": "tái běi chē zhàn",
+        "network": "桃園機場捷運",
+        "opening_hours": "Mo-Su 6:00-0:00",
+        "operator": "桃園大眾捷運股份有限公司",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "A1",
+        "start_date": "2017-03-02",
+        "start_date:trial": "2017-02-02",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.tymetro.com.tw",
+        "wikidata": "Q18119044",
+        "wikipedia": "zh:台北車站 (桃園捷運)",
+        "wikipedia:en": "Taipei main station (Taoyuan Metro)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5143449,
+          25.0487037
+        ]
+      },
+      "id": "node/4653351592"
+    }
+  ]
+}

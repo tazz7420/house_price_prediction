@@ -1,0 +1,2020 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-07-26T05:49:54Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/156426260",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "舊莊消防分隊"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.6149923,
+              25.0450577
+            ],
+            [
+              121.6150407,
+              25.044884
+            ],
+            [
+              121.6153277,
+              25.0449497
+            ],
+            [
+              121.6152793,
+              25.0451234
+            ],
+            [
+              121.6149923,
+              25.0450577
+            ]
+          ]
+        ]
+      },
+      "id": "way/156426260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/208362637",
+        "amenity": "fire_station",
+        "building": "office",
+        "name": "內湖分隊",
+        "office": "government",
+        "official_name": "台北市政府消防局內湖分隊"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5900939,
+              25.0697016
+            ],
+            [
+              121.5901661,
+              25.0695581
+            ],
+            [
+              121.5904051,
+              25.0696567
+            ],
+            [
+              121.5903805,
+              25.0697053
+            ],
+            [
+              121.5903328,
+              25.0698003
+            ],
+            [
+              121.5900939,
+              25.0697016
+            ]
+          ]
+        ]
+      },
+      "id": "way/208362637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/238449741",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "文山區",
+        "addr:full": "臺北市文山區景文街30號",
+        "addr:housenumber": "30",
+        "addr:postcode": "11670",
+        "addr:street": "景文街",
+        "amenity": "fire_station",
+        "building": "office",
+        "building:levels": "5",
+        "full_name": "臺北市政府消防局第一救災救護大隊文山中隊景美分隊",
+        "name": "景美消防隊",
+        "office": "government",
+        "phone": "+886 2 29311405"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5412151,
+              24.9924499
+            ],
+            [
+              121.5411146,
+              24.9924473
+            ],
+            [
+              121.5411178,
+              24.9923431
+            ],
+            [
+              121.5410438,
+              24.9923412
+            ],
+            [
+              121.5410465,
+              24.9922528
+            ],
+            [
+              121.541221,
+              24.9922572
+            ],
+            [
+              121.5412151,
+              24.9924499
+            ]
+          ]
+        ]
+      },
+      "id": "way/238449741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/238534463",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:housename": "城中消防大樓",
+        "addr:housenumber": "86",
+        "addr:postcode": "10044",
+        "addr:street": "忠孝西路一段",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "城中分隊",
+        "name:en": "Chengzhong Station",
+        "name:zh": "城中分隊",
+        "official_name": "臺北市政府消防局第一大隊中正中隊城中分隊",
+        "operator": "臺北市政府消防局",
+        "phone": "+886 2 2381-2839"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5134038,
+              25.0469914
+            ],
+            [
+              121.5133569,
+              25.0469513
+            ],
+            [
+              121.5133582,
+              25.0468432
+            ],
+            [
+              121.5136156,
+              25.0468458
+            ],
+            [
+              121.5136144,
+              25.0469404
+            ],
+            [
+              121.5134038,
+              25.0469914
+            ]
+          ]
+        ]
+      },
+      "id": "way/238534463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/258084035",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大同區",
+        "addr:housenumber": "35",
+        "addr:postcode": "10352",
+        "addr:street": "承德路二段",
+        "amenity": "fire_station",
+        "building": "office",
+        "description": "建成分隊 電話 : (02)25593748 大同區承德路2段35號",
+        "name": "建成分隊",
+        "office": "government",
+        "operator": "臺北市政府消防局",
+        "phone": "+8862559 3748"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5184246,
+              25.0548737
+            ],
+            [
+              121.5184305,
+              25.0547219
+            ],
+            [
+              121.5185457,
+              25.0547255
+            ],
+            [
+              121.5185398,
+              25.0548774
+            ],
+            [
+              121.5184246,
+              25.0548737
+            ]
+          ]
+        ]
+      },
+      "id": "way/258084035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/258699152",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:housenumber": "41",
+        "addr:postcode": "104",
+        "addr:street": "民族東路",
+        "amenity": "fire_station",
+        "building": "office",
+        "building:levels": "2",
+        "height": "10",
+        "name": "圓山分隊",
+        "office": "government",
+        "phone": "+886 2 25913384",
+        "website": "http://www.tfd.gov.tw/detail.php?type=article&id=12053"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5295709,
+              25.0686746
+            ],
+            [
+              121.5295677,
+              25.0685277
+            ],
+            [
+              121.5296228,
+              25.0685267
+            ],
+            [
+              121.5296225,
+              25.0685112
+            ],
+            [
+              121.5300105,
+              25.0685043
+            ],
+            [
+              121.5300141,
+              25.0686643
+            ],
+            [
+              121.5300138,
+              25.0686863
+            ],
+            [
+              121.5296232,
+              25.0686932
+            ],
+            [
+              121.5296228,
+              25.0686737
+            ],
+            [
+              121.5295709,
+              25.0686746
+            ]
+          ]
+        ]
+      },
+      "id": "way/258699152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/268357635",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:housenumber": "1",
+        "addr:postcode": "100",
+        "addr:street": "北平東路",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "building:levels": "3",
+        "name": "中正中隊華山分隊",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5209081,
+              25.047181
+            ],
+            [
+              121.520951,
+              25.0473298
+            ],
+            [
+              121.5207775,
+              25.0473696
+            ],
+            [
+              121.5207698,
+              25.0473462
+            ],
+            [
+              121.5207561,
+              25.0473497
+            ],
+            [
+              121.5206582,
+              25.0473875
+            ],
+            [
+              121.5206072,
+              25.0472489
+            ],
+            [
+              121.5209081,
+              25.047181
+            ]
+          ]
+        ]
+      },
+      "id": "way/268357635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/307971379",
+        "amenity": "fire_station",
+        "building": "office",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.6071112,
+              25.0548279
+            ],
+            [
+              121.6071283,
+              25.0547545
+            ],
+            [
+              121.6072049,
+              25.0547691
+            ],
+            [
+              121.6072495,
+              25.0545777
+            ],
+            [
+              121.6073482,
+              25.0545965
+            ],
+            [
+              121.6072865,
+              25.0548614
+            ],
+            [
+              121.6071112,
+              25.0548279
+            ]
+          ]
+        ]
+      },
+      "id": "way/307971379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/308210442",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中正區",
+        "addr:housenumber": "49",
+        "addr:postcode": "100",
+        "addr:street": "汀州路一段",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "台北市義勇消防大隊雙園中隊第二分隊"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5074688,
+              25.0304427
+            ],
+            [
+              121.5075732,
+              25.0303048
+            ],
+            [
+              121.5077059,
+              25.0303721
+            ],
+            [
+              121.5075122,
+              25.0304555
+            ],
+            [
+              121.5074688,
+              25.0304427
+            ]
+          ]
+        ]
+      },
+      "id": "way/308210442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/308676473",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "萬華區",
+        "addr:housenumber": "116",
+        "addr:postcode": "108",
+        "addr:street": "和平西路三段",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "building:levels": "3",
+        "name": "台北市義勇消防大隊龍山中隊第一分隊"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5003147,
+              25.0349926
+            ],
+            [
+              121.5003665,
+              25.0349921
+            ],
+            [
+              121.5003674,
+              25.0350821
+            ],
+            [
+              121.5003157,
+              25.0350826
+            ],
+            [
+              121.5003147,
+              25.0349926
+            ]
+          ]
+        ]
+      },
+      "id": "way/308676473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/315892006",
+        "amenity": "fire_station",
+        "building": "office",
+        "name": "金華分隊",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5276974,
+              25.0324967
+            ],
+            [
+              121.528001,
+              25.0324519
+            ],
+            [
+              121.5280131,
+              25.0325203
+            ],
+            [
+              121.527964,
+              25.0325269
+            ],
+            [
+              121.528017,
+              25.0327841
+            ],
+            [
+              121.527759,
+              25.0328207
+            ],
+            [
+              121.5276974,
+              25.0324967
+            ]
+          ]
+        ]
+      },
+      "id": "way/315892006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321085243",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:full": "11073 臺北市信義區松仁路1號",
+        "addr:housenumber": "1",
+        "addr:postcode": "11073",
+        "addr:street": "松仁路",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "台北市政府消防局",
+        "office": "government",
+        "phone": "+886 2 2729 7668",
+        "website": "http://www.tfd.gov.tw/",
+        "wikidata": "Q15914144",
+        "wikipedia": "zh:臺北市政府消防局"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.568822,
+              25.0408164
+            ],
+            [
+              121.5688188,
+              25.0406165
+            ],
+            [
+              121.5691812,
+              25.0406118
+            ],
+            [
+              121.5691844,
+              25.0408117
+            ],
+            [
+              121.568822,
+              25.0408164
+            ]
+          ]
+        ]
+      },
+      "id": "way/321085243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/334974655",
+        "amenity": "fire_station",
+        "building": "office",
+        "name": "莊敬分隊",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5650545,
+              25.0297639
+            ],
+            [
+              121.564899,
+              25.029507
+            ],
+            [
+              121.5650412,
+              25.0294363
+            ],
+            [
+              121.5651968,
+              25.0296931
+            ],
+            [
+              121.5650545,
+              25.0297639
+            ]
+          ]
+        ]
+      },
+      "id": "way/334974655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/343713286",
+        "addr:city": "臺北市",
+        "addr:district": "大同區",
+        "addr:full": "103012臺北市大同區鄭州路109號",
+        "addr:housenumber": "109",
+        "addr:postcode": "103012",
+        "addr:street": "鄭州路",
+        "amenity": "fire_station",
+        "building": "office",
+        "name": "延平分隊",
+        "name:zh": "延平分隊",
+        "office": "government",
+        "official_name": "臺北市政府消防局第四救災救護大隊大同中隊延平分隊",
+        "operator": "臺北市政府消防局",
+        "phone": "+886 2 2558 2105",
+        "website": "https://www.119.gov.taipei/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5112981,
+              25.0504475
+            ],
+            [
+              121.511267,
+              25.05027
+            ],
+            [
+              121.5114599,
+              25.0502423
+            ],
+            [
+              121.511491,
+              25.0504197
+            ],
+            [
+              121.5112981,
+              25.0504475
+            ]
+          ]
+        ]
+      },
+      "id": "way/343713286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/366004481",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "松山區",
+        "addr:housenumber": "162",
+        "addr:postcode": "105",
+        "addr:street": "八德路四段",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "台北市政府消防局八德分隊"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5629816,
+              25.0485922
+            ],
+            [
+              121.5630043,
+              25.0483637
+            ],
+            [
+              121.5631588,
+              25.0483763
+            ],
+            [
+              121.5631361,
+              25.0486047
+            ],
+            [
+              121.5629816,
+              25.0485922
+            ]
+          ]
+        ]
+      },
+      "id": "way/366004481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/377271834",
+        "amenity": "fire_station",
+        "building": "fire_station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5547242,
+              24.979888
+            ],
+            [
+              121.5547676,
+              24.9797194
+            ],
+            [
+              121.5549385,
+              24.9797555
+            ],
+            [
+              121.5548951,
+              24.9799242
+            ],
+            [
+              121.5548628,
+              24.9799174
+            ],
+            [
+              121.5547242,
+              24.979888
+            ]
+          ]
+        ]
+      },
+      "id": "way/377271834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/378892669",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "光明消防分隊",
+        "operator": "臺北市政府消防局"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5024572,
+              25.1353192
+            ],
+            [
+              121.5024111,
+              25.1352229
+            ],
+            [
+              121.5023901,
+              25.1352282
+            ],
+            [
+              121.502327,
+              25.1350972
+            ],
+            [
+              121.5024544,
+              25.1350467
+            ],
+            [
+              121.5024706,
+              25.1350481
+            ],
+            [
+              121.5024835,
+              25.1350538
+            ],
+            [
+              121.5024928,
+              25.1350633
+            ],
+            [
+              121.5025684,
+              25.1352225
+            ],
+            [
+              121.50257,
+              25.1352364
+            ],
+            [
+              121.502563,
+              25.1352476
+            ],
+            [
+              121.5025535,
+              25.1352546
+            ],
+            [
+              121.5025138,
+              25.1352716
+            ],
+            [
+              121.5025231,
+              25.1352914
+            ],
+            [
+              121.5024572,
+              25.1353192
+            ]
+          ]
+        ]
+      },
+      "id": "way/378892669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/383493921",
+        "amenity": "fire_station",
+        "building": "office",
+        "building:levels": "5",
+        "government": "public_safety",
+        "name": "臺北市消防局大同分隊",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5139939,
+              25.0613296
+            ],
+            [
+              121.5139943,
+              25.0614866
+            ],
+            [
+              121.5139677,
+              25.0614866
+            ],
+            [
+              121.5139679,
+              25.0615433
+            ],
+            [
+              121.5139573,
+              25.0615434
+            ],
+            [
+              121.5139574,
+              25.0615658
+            ],
+            [
+              121.5138819,
+              25.061566
+            ],
+            [
+              121.5138819,
+              25.0615433
+            ],
+            [
+              121.5137384,
+              25.0615436
+            ],
+            [
+              121.5137253,
+              25.0615436
+            ],
+            [
+              121.5137247,
+              25.0613303
+            ],
+            [
+              121.5137382,
+              25.0613303
+            ],
+            [
+              121.5139939,
+              25.0613296
+            ]
+          ]
+        ]
+      },
+      "id": "way/383493921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/403458821",
+        "amenity": "fire_station",
+        "building": "office",
+        "name": "永吉分隊",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5692116,
+              25.0455431
+            ],
+            [
+              121.5692077,
+              25.0454076
+            ],
+            [
+              121.5692897,
+              25.0454057
+            ],
+            [
+              121.5693691,
+              25.0454038
+            ],
+            [
+              121.5693699,
+              25.0454333
+            ],
+            [
+              121.5693701,
+              25.0454393
+            ],
+            [
+              121.5693717,
+              25.0454971
+            ],
+            [
+              121.5693729,
+              25.0455394
+            ],
+            [
+              121.5692116,
+              25.0455431
+            ]
+          ]
+        ]
+      },
+      "id": "way/403458821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/404387338",
+        "amenity": "fire_station",
+        "building": "office",
+        "building:levels": "5",
+        "name": "民權消防分隊",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5779823,
+              25.0668403
+            ],
+            [
+              121.5782738,
+              25.0669051
+            ],
+            [
+              121.5782796,
+              25.0669501
+            ],
+            [
+              121.5782258,
+              25.0671189
+            ],
+            [
+              121.5779206,
+              25.067032
+            ],
+            [
+              121.5779823,
+              25.0668403
+            ]
+          ]
+        ]
+      },
+      "id": "way/404387338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/404545683",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "大直分隊",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5565926,
+              25.080133
+            ],
+            [
+              121.5570659,
+              25.0801288
+            ],
+            [
+              121.5570668,
+              25.0803211
+            ],
+            [
+              121.5566014,
+              25.0803252
+            ],
+            [
+              121.5566014,
+              25.0803216
+            ],
+            [
+              121.5565935,
+              25.0803217
+            ],
+            [
+              121.5565926,
+              25.080133
+            ]
+          ]
+        ]
+      },
+      "id": "way/404545683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/435181718",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "士林區",
+        "addr:housenumber": "376",
+        "addr:postcode": "111",
+        "addr:street": "中山北路五段",
+        "amenity": "fire_station",
+        "building": "office",
+        "name": "劍潭分隊",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5276929,
+              25.0899826
+            ],
+            [
+              121.5277052,
+              25.0898172
+            ],
+            [
+              121.5278568,
+              25.0897978
+            ],
+            [
+              121.527952,
+              25.0897796
+            ],
+            [
+              121.5279962,
+              25.0899521
+            ],
+            [
+              121.528015,
+              25.0900796
+            ],
+            [
+              121.5277508,
+              25.0901476
+            ],
+            [
+              121.5276945,
+              25.0901087
+            ],
+            [
+              121.5277079,
+              25.0899909
+            ],
+            [
+              121.5276929,
+              25.0899826
+            ]
+          ]
+        ]
+      },
+      "id": "way/435181718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/436654099",
+        "amenity": "fire_station",
+        "building": "office",
+        "building:levels": "2",
+        "name": "古亭分隊",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5377247,
+              25.0117427
+            ],
+            [
+              121.5375748,
+              25.0116279
+            ],
+            [
+              121.5376675,
+              25.0115285
+            ],
+            [
+              121.5378174,
+              25.0116433
+            ],
+            [
+              121.5377247,
+              25.0117427
+            ]
+          ]
+        ]
+      },
+      "id": "way/436654099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437331547",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "中山區",
+        "addr:full": "臺北市中山區松江路25巷9號",
+        "addr:housenumber": "9",
+        "addr:postcode": "104",
+        "addr:street": "松江路25巷",
+        "alt_name": "消防局松江分隊大樓",
+        "amenity": "fire_station",
+        "building": "office",
+        "building:levels": "12",
+        "building:levels:underground": "3",
+        "description": "2012-06-06動工，新建工程處代辦「臺北市政府消防局松江分隊新建 工程」榮獲臺北市政府104年度公共工程卓越獎 http://nco.gov.taipei/ct.asp?xItem=115931962&ctNode=22688&mp=106021",
+        "fixme": "location and building area estaminated",
+        "name": "松江分隊",
+        "office": "government",
+        "operator": "臺北市政府消防局",
+        "phone": "+886 2 2517 8353",
+        "start_date": "2016-12-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5343531,
+              25.0477477
+            ],
+            [
+              121.5342625,
+              25.0478311
+            ],
+            [
+              121.5341097,
+              25.0478266
+            ],
+            [
+              121.5339865,
+              25.047741
+            ],
+            [
+              121.5340384,
+              25.0476842
+            ],
+            [
+              121.5339826,
+              25.0476423
+            ],
+            [
+              121.5340211,
+              25.0476002
+            ],
+            [
+              121.5339695,
+              25.0475617
+            ],
+            [
+              121.5340246,
+              25.0475014
+            ],
+            [
+              121.5343531,
+              25.0477477
+            ]
+          ]
+        ]
+      },
+      "id": "way/437331547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/447734845",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "大安區",
+        "addr:full": "臺北市大安區復興南路二段92號",
+        "addr:housenumber": "92",
+        "addr:postcode": "106",
+        "addr:street": "復興南路二段",
+        "amenity": "fire_station",
+        "building": "office",
+        "name": "復興分隊",
+        "office": "government",
+        "phone": "+886 2 2706 7965",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5432896,
+              25.0299392
+            ],
+            [
+              121.5432944,
+              25.0301839
+            ],
+            [
+              121.5431918,
+              25.0301898
+            ],
+            [
+              121.5431902,
+              25.0301322
+            ],
+            [
+              121.543169,
+              25.0301234
+            ],
+            [
+              121.5431674,
+              25.0299419
+            ],
+            [
+              121.5432896,
+              25.0299392
+            ]
+          ]
+        ]
+      },
+      "id": "way/447734845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/459848742",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "松山基地機場消防隊"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5616527,
+              25.0653887
+            ],
+            [
+              121.5615925,
+              25.0655842
+            ],
+            [
+              121.5610492,
+              25.0654468
+            ],
+            [
+              121.5611094,
+              25.0652514
+            ],
+            [
+              121.5616527,
+              25.0653887
+            ]
+          ]
+        ]
+      },
+      "id": "way/459848742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/473545861",
+        "amenity": "fire_station",
+        "building": "roof",
+        "name": "機場消防隊"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5491776,
+              25.0647081
+            ],
+            [
+              121.5491866,
+              25.0642964
+            ],
+            [
+              121.5493501,
+              25.0642993
+            ],
+            [
+              121.5493412,
+              25.064711
+            ],
+            [
+              121.5491776,
+              25.0647081
+            ]
+          ]
+        ]
+      },
+      "id": "way/473545861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/495024058",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:district": "內湖區",
+        "addr:housenumber": "3;5",
+        "addr:postcode": "114",
+        "addr:street": "成功路五段",
+        "amenity": "fire_station",
+        "building": "office",
+        "name": "大湖分隊",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.6015467,
+              25.0840261
+            ],
+            [
+              121.6015231,
+              25.0840403
+            ],
+            [
+              121.601496,
+              25.0840583
+            ],
+            [
+              121.6014116,
+              25.0839494
+            ],
+            [
+              121.6014623,
+              25.0839171
+            ],
+            [
+              121.6015467,
+              25.0840261
+            ]
+          ]
+        ]
+      },
+      "id": "way/495024058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/527687891",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "消防署特種搜救隊"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5542579,
+              25.0624633
+            ],
+            [
+              121.5543019,
+              25.0622284
+            ],
+            [
+              121.5544647,
+              25.0622534
+            ],
+            [
+              121.5544208,
+              25.0624883
+            ],
+            [
+              121.5542579,
+              25.0624633
+            ]
+          ]
+        ]
+      },
+      "id": "way/527687891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/602345836",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "萬華區",
+        "addr:full": "臺北市萬華區西藏路213號之1",
+        "addr:housenumber": "213-1",
+        "addr:postcode": "108",
+        "addr:street": "西藏路",
+        "amenity": "fire_station",
+        "building": "office",
+        "name": "雙園分隊",
+        "office": "government",
+        "phone": "+886 2 2305 3374"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.4957452,
+              25.0284796
+            ],
+            [
+              121.4957458,
+              25.0284694
+            ],
+            [
+              121.4957079,
+              25.0284675
+            ],
+            [
+              121.4957098,
+              25.0284369
+            ],
+            [
+              121.4957038,
+              25.0284367
+            ],
+            [
+              121.4957057,
+              25.0284047
+            ],
+            [
+              121.4957168,
+              25.0284052
+            ],
+            [
+              121.4957172,
+              25.0283974
+            ],
+            [
+              121.495719,
+              25.0283975
+            ],
+            [
+              121.4957212,
+              25.0283605
+            ],
+            [
+              121.4957522,
+              25.0283621
+            ],
+            [
+              121.4957526,
+              25.0283549
+            ],
+            [
+              121.4957527,
+              25.0283525
+            ],
+            [
+              121.4959671,
+              25.028363
+            ],
+            [
+              121.4959669,
+              25.0283659
+            ],
+            [
+              121.4959666,
+              25.0283717
+            ],
+            [
+              121.4959969,
+              25.0283731
+            ],
+            [
+              121.4959947,
+              25.0284117
+            ],
+            [
+              121.4959979,
+              25.0284119
+            ],
+            [
+              121.4959976,
+              25.0284166
+            ],
+            [
+              121.4960086,
+              25.0284172
+            ],
+            [
+              121.4960067,
+              25.0284498
+            ],
+            [
+              121.4960018,
+              25.0284496
+            ],
+            [
+              121.4959999,
+              25.0284801
+            ],
+            [
+              121.495962,
+              25.0284783
+            ],
+            [
+              121.4959615,
+              25.0284863
+            ],
+            [
+              121.4959613,
+              25.0284901
+            ],
+            [
+              121.4957452,
+              25.0284796
+            ]
+          ]
+        ]
+      },
+      "id": "way/602345836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/608562611",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "第四大隊 雙溪分隊",
+        "operator": "台北市政府消防局"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5445236,
+              25.097741
+            ],
+            [
+              121.5446524,
+              25.0975135
+            ],
+            [
+              121.5448246,
+              25.0975934
+            ],
+            [
+              121.5446958,
+              25.097821
+            ],
+            [
+              121.5445236,
+              25.097741
+            ]
+          ]
+        ]
+      },
+      "id": "way/608562611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/713861848",
+        "amenity": "fire_station",
+        "building": "fire_station",
+        "name": "北市搜救隊及搜救犬基地"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.5492276,
+              25.0725727
+            ],
+            [
+              121.5492257,
+              25.0723717
+            ],
+            [
+              121.5495765,
+              25.0723717
+            ],
+            [
+              121.5495784,
+              25.0725641
+            ],
+            [
+              121.5492276,
+              25.0725727
+            ]
+          ]
+        ]
+      },
+      "id": "way/713861848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1715784246",
+        "amenity": "fire_station",
+        "name": "社子消防分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5114064,
+          25.0791086
+        ]
+      },
+      "id": "node/1715784246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2419584511",
+        "amenity": "fire_station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5522091,
+          25.0328475
+        ]
+      },
+      "id": "node/2419584511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2678626913",
+        "amenity": "fire_station",
+        "name": "建國"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5357855,
+          25.0679518
+        ]
+      },
+      "id": "node/2678626913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2678627712",
+        "amenity": "fire_station",
+        "name": "中崙分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5458041,
+          25.0484022
+        ]
+      },
+      "id": "node/2678627712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2678629259",
+        "amenity": "fire_station",
+        "name": "大湖"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.592474,
+          25.0833446
+        ]
+      },
+      "id": "node/2678629259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2825549338",
+        "amenity": "fire_station",
+        "name": "石牌分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5171109,
+          25.1180524
+        ]
+      },
+      "id": "node/2825549338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3232586638",
+        "amenity": "fire_station",
+        "name": "東湖消防分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6129479,
+          25.0673983
+        ]
+      },
+      "id": "node/3232586638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3506736114",
+        "amenity": "fire_station",
+        "name": "成德分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.586825,
+          25.047863
+        ]
+      },
+      "id": "node/3506736114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3627318131",
+        "addr:city": "台北市",
+        "addr:country": "TW",
+        "addr:housenumber": "52",
+        "addr:postcode": "116",
+        "addr:street": "萬美街一段",
+        "amenity": "fire_station",
+        "name": "萬芳分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5665963,
+          25.0021399
+        ]
+      },
+      "id": "node/3627318131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3820876919",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "北投區",
+        "addr:housenumber": "345",
+        "addr:postcode": "112",
+        "addr:street": "知行路",
+        "amenity": "fire_station",
+        "name": "關渡消防分隊",
+        "operator": "臺北市政府消防局"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4667823,
+          25.1232488
+        ]
+      },
+      "id": "node/3820876919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3822530557",
+        "amenity": "fire_station",
+        "name": "秀山消防分隊",
+        "operator": "臺北市政府消防局"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4931148,
+          25.145663
+        ]
+      },
+      "id": "node/3822530557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3822611742",
+        "amenity": "fire_station",
+        "name": "陽明山分隊",
+        "official_name": "台北市政府消防局第四大隊北投中隊陽明山分隊",
+        "operator": "臺北市政府消防局"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5464569,
+          25.1514818
+        ]
+      },
+      "id": "node/3822611742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3881369160",
+        "amenity": "fire_station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5163009,
+          25.0687035
+        ]
+      },
+      "id": "node/3881369160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4018208918",
+        "amenity": "fire_station",
+        "name": "天母消防隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5329494,
+          25.1254155
+        ]
+      },
+      "id": "node/4018208918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4068259239",
+        "amenity": "fire_station",
+        "name": "義消中崙分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5769494,
+          25.0498357
+        ]
+      },
+      "id": "node/4068259239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4489128331",
+        "addr:city": "臺北市",
+        "addr:country": "TW",
+        "addr:district": "信義區",
+        "addr:full": "11073 臺北市信義區松仁路1號",
+        "addr:housenumber": "1",
+        "addr:postcode": "11073",
+        "addr:street": "松仁路",
+        "amenity": "fire_station",
+        "name": "信義分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5690319,
+          25.0407723
+        ]
+      },
+      "id": "node/4489128331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4838087725",
+        "amenity": "fire_station",
+        "name": "義消延平分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5091819,
+          25.0604049
+        ]
+      },
+      "id": "node/4838087725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4927497170",
+        "addr:floor": "1",
+        "amenity": "fire_station",
+        "name": "消防局後港小隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.518156,
+          25.0871481
+        ]
+      },
+      "id": "node/4927497170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110489319",
+        "amenity": "fire_station",
+        "name": "義消圓山分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5276049,
+          25.0597259
+        ]
+      },
+      "id": "node/5110489319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9030568078",
+        "amenity": "fire_station",
+        "name": "龍山分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4995735,
+          25.0385956
+        ]
+      },
+      "id": "node/9030568078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9800499586",
+        "amenity": "fire_station",
+        "name": "義消-內湖中隊內湖一分隊"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5894809,
+          25.0817641
+        ]
+      },
+      "id": "node/9800499586"
+    }
+  ]
+}
