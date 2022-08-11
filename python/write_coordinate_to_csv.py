@@ -22,8 +22,9 @@ def write(inputFile, outputFile, column, fix_address):
     
     # 正規表達式(中文數字轉阿拉伯數字)
     pattern = r'[0-9]*?[零一二三四五六七八九十]*?[0-9]*?[零一二三四五六七八九十]{1}[0-9]*?[號]'
+    pattern2 = r'[0-9]*?[零一二三四五六七八九十]*?[0-9]*?[零一二三四五六七八九十]*?[0-9]*?[樓]'
     # 開啟 CSV 檔案
-    with open(inputFile, newline='') as csvfile:
+    with open(inputFile, newline='', encoding='utf-8') as csvfile:
 
         # 讀取 CSV 檔案內容
         rows = csv.reader(csvfile)
@@ -37,22 +38,42 @@ def write(inputFile, outputFile, column, fix_address):
             
             # 欄位名稱
             if line == 1:
+                row.append('floor')
                 row.append('lon')
                 row.append('lat')
                 result.append(row)
                 line = line+1
-                with open(outputFile, 'w', newline='') as csvfile1:
+                with open(outputFile, 'w', newline='', encoding='utf-8') as csvfile1:
                     writer = csv.writer(csvfile1,delimiter=',')
                     writer.writerows(result)
                 continue
             
             # 反反爬蟲用
-            if timeup % 20 == 0:
-                if timeup % 100 == 0:
+            if timeup % 30 == 0:
+                if timeup % 150 == 0:
                     headers = {
                         'user-agent': ua.random
                     }
                 sleep(randint(2,4))
+            # 樓層中文數字轉阿拉伯數字
+            #print(row[column])
+            try:
+                m2 = re.search(pattern2, f"{row[column].split('樓')[0]}樓")
+                m2.group(0)
+                n2 = f"{row[column].split('樓')[0]}樓"
+                nn2 = n2.split(m2.group(0))[0]
+                to_an2 = cn2an.cn2an(m2.group(0).split('樓')[0], "smart")
+                floor = to_an2
+            
+            # 無法取得坐標 值=null
+            except:
+                m2 = re.search(pattern2, f"{row[column].split('樓')[0]}樓")
+                m2.group(0)
+                floor = m2.group(0)
+            
+            if floor == '樓':
+                floor = 1
+            row.append(int(floor))
             
             # 地址轉坐標
             try:
@@ -95,6 +116,6 @@ def write(inputFile, outputFile, column, fix_address):
 
             line = line+1
             # 資料寫入新的CSV
-            with open(outputFile, 'a+', newline='') as csvfile1:
+            with open(outputFile, 'a+', newline='', encoding='utf-8') as csvfile1:
                 writer = csv.writer(csvfile1,delimiter=',')
                 writer.writerows(result)
