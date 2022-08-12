@@ -55,11 +55,33 @@ def c_geojson(fpath, facility):
         gf5 = gf3.merge(drop_df_idx,how='left', left_on='full_id', right_on='full_id_2')
         #print(gf3.info())
         drop_item = gf5[gf5['full_id_2'].isnull() == False].index
-        gf3=gf3.drop(drop_item)
-        gf = pd.concat([gf, gf3])
+        try:
+            gf3=gf3.drop(drop_item)
+            gf = pd.concat([gf, gf3])
+        except:
+            gf = pd.concat([gf, gf3])
     
-    gf = gf.loc[:,['full_id', 'name', 'geometry']]
+    if facility == 'placeofworkship':
+        gf = gf.loc[:,['full_id', 'name', 'religion', 'geometry']]
+    else:
+        gf = gf.loc[:,['full_id', 'name', 'geometry']]
     gf.info()
     gf.head()
     gf.plot()
     gf.to_file(facility + ".geojson", driver='GeoJSON')
+    
+def c_2_geojson(fpath, fname1, fname2):
+    path = os.listdir(fpath)
+    for filename in path:
+        if (fname1 in filename) & (filename[-7:] == 'geojson'):
+            gf1 = gpd.read_file(fpath + filename)
+            gf1 = gf1.to_crs(epsg=3826)
+        elif (fname2 in filename) & (filename[-7:] == 'geojson'):
+            gf2 = gpd.read_file(fpath + filename)
+            gf2 = gf2.to_crs(epsg=3826)
+    gf3 = pd.concat([gf1, gf2])
+    gf3 = gf3.loc[:,['full_id', 'name', 'geometry']]
+    gf3.info()
+    gf3.head()
+    gf3.plot()
+    gf3.to_file(fname1 + ".geojson", driver='GeoJSON')

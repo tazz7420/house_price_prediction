@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "market_p_KEL",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n2630645745", "osm_id": "2630645745", "osm_type": "node", "amenity": "marketplace", "alt_name": null, "name": "東明市場" }, "geometry": { "type": "Point", "coordinates": [ 121.7629386, 25.127987 ] } },
+{ "type": "Feature", "properties": { "full_id": "n5171581159", "osm_id": "5171581159", "osm_type": "node", "amenity": "marketplace", "alt_name": null, "name": "崁仔頂魚市" }, "geometry": { "type": "Point", "coordinates": [ 121.7407767, 25.1291097 ] } },
+{ "type": "Feature", "properties": { "full_id": "n5174302266", "osm_id": "5174302266", "osm_type": "node", "amenity": "marketplace", "alt_name": null, "name": "西定市場" }, "geometry": { "type": "Point", "coordinates": [ 121.7320371, 25.1373379 ] } },
+{ "type": "Feature", "properties": { "full_id": "n5283407380", "osm_id": "5283407380", "osm_type": "node", "amenity": "marketplace", "alt_name": "大市場", "name": "仁愛市場" }, "geometry": { "type": "Point", "coordinates": [ 121.7412188, 25.1280158 ] } },
+{ "type": "Feature", "properties": { "full_id": "n8399955172", "osm_id": "8399955172", "osm_type": "node", "amenity": "marketplace", "alt_name": null, "name": "成功市場" }, "geometry": { "type": "Point", "coordinates": [ 121.7375686, 25.1274051 ] } }
+]
+}

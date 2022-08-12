@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "market_p_ILA",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "n6447949589", "osm_id": "6447949589", "osm_type": "node", "amenity": "marketplace", "opening_hours": "We 17:00-23:30", "name:zh": "清溝夜市", "name:ja": "水曜夜市", "name:en": "Qinggou Night Market", "name": "清溝夜市" }, "geometry": { "type": "Point", "coordinates": [ 121.7609301, 24.6640079 ] } }
+]
+}
