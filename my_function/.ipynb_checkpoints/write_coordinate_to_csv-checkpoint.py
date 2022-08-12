@@ -6,7 +6,7 @@ from time import sleep
 from random import randint
 import pandas as pd
 
-import python.google_map_spider as gms
+import my_function.google_map_spider as gms
 from fake_useragent import UserAgent
 ua = UserAgent(cache=True) # cache=True 表示從已經儲存的列表中提取
 
