@@ -73,7 +73,10 @@ def write(inputFile, outputFile, column, fix_address):
             
             if floor == '樓':
                 floor = 1
-            row.append(int(floor))
+            try:
+                row.append(int(floor))
+            except:
+                row.append('null')
             
             # 地址轉坐標
             try:
