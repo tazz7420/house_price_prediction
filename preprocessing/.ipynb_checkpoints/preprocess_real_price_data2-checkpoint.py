@@ -6,7 +6,6 @@ from shapely.geometry import Point
 
 import sys, os
 sys.path.append("..")
-import my_function.buffer_analysis as bas
 
 def process(cityname):
     df_final = pd.read_csv(f'./temp/{cityname}_pre_df_WGS84.csv', encoding = 'utf-8')

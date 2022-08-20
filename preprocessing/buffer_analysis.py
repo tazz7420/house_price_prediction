@@ -8,8 +8,8 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
     gf_500 = gpd.read_file(input_filename, encoding = 'utf-8')
     gf_750 = gpd.read_file(input_filename, encoding = 'utf-8')
     gf_250['geometry'] = gf_250.buffer(250)
-    gf_500['geometry'] = gf_250.buffer(500)
-    gf_750['geometry'] = gf_250.buffer(750)
+    gf_500['geometry'] = gf_500.buffer(500)
+    gf_750['geometry'] = gf_750.buffer(750)
     gf_list = [gf_250, gf_500, gf_750]
     buffer_range = ['250', '500', '750']
     
