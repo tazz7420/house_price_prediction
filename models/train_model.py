@@ -22,7 +22,6 @@ def train(city, district):
     data.drop(['Unnamed: 0.1'],axis=1,inplace=True)
     data.drop(['鄉鎮市區'],axis=1,inplace=True)
     data.drop(['建物型態'],axis=1,inplace=True)
-    data.drop(['車位類別'],axis=1,inplace=True)
     data.drop(['geometry'],axis=1,inplace=True)
     
     path = f'{city}'
@@ -99,6 +98,9 @@ def train(city, district):
     plt.xlabel('epochs')
     plt.legend(loc='best')
     plt.savefig(f'{city}/{district}/MAE.png')
+    plt.cla()
+    
+    
     
     # test
 #     model = keras.models.load_model(f'{city}/{district}/model-1.h5')
@@ -150,6 +152,14 @@ def train(city, district):
 
     y_test = pd.DataFrame(y_test)
     y_pred = pd.DataFrame(y_pred)
+    
+    plt.scatter(y_test, y_pred)
+    plt.plot([0,1],[0,1])
+    plt.savefig(f'{city}/{district}/plt.png')
+    plt.cla()
+    
+    data1 = pd.DataFrame({'origin':y_test,'predict':y_pred})
+    data1.corr()
     
     test_data_output.reset_index(drop=True, inplace=True)
     result = pd.concat([test_data_output, y_pred],axis=1)
