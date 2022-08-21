@@ -4,7 +4,7 @@ import tensorflow as tf
 from tensorflow import keras
 from keras.utils.vis_utils import plot_model
 from sklearn.metrics import explained_variance_score, mean_absolute_error, mean_squared_error, r2_score
-import csv, pydot, graphviz, os
+import csv, os
 import matplotlib.pyplot as plt
 
 def train(city, district):
