@@ -1,16 +1,158 @@
 import pandas as pd
 import geopandas as gpd
 import csv, sys
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+import numpy as np
+
+from scipy.spatial import cKDTree
+from shapely.geometry import Point
+
+def ckdnearest(gdA, gdB, columnName):
+
+    nA = np.array(list(gdA.geometry.apply(lambda x: (x.x, x.y))))
+    nB = np.array(list(gdB.geometry.apply(lambda x: (x.x, x.y))))
+    btree = cKDTree(nB)
+    dist, idx = btree.query(nA, k=1)
+    #gdB_nearest = gdB.iloc[idx].drop(columns="geometry").reset_index(drop=True)
+    gdf = pd.concat(
+        [
+            gdA.reset_index(drop=True),
+            pd.Series(dist, name=f'{columnName}_dist')
+        ], 
+        axis=1)
+
+    return gdf
+
+def nearest5HistoryPrice(gdA, gdB):
+
+    nA = np.array(list(gdA.geometry.apply(lambda x: (x.x, x.y))))
+    nB = np.array(list(gdB.geometry.apply(lambda x: (x.x, x.y))))
+    btree = cKDTree(nB)
+    dist, idx = btree.query(nA, k=5)
+    gdB_nearest0 = gdB.iloc[idx[:,0]].drop(columns="geometry").reset_index(drop=True)
+    gdB_nearest0['history_price0'] = gdB_nearest0['單價元平方公尺']
+    gdB_nearest0 = gdB_nearest0['history_price0']
+    
+    gdB_nearest1 = gdB.iloc[idx[:,1]].drop(columns="geometry").reset_index(drop=True)
+    gdB_nearest1['history_price1'] = gdB_nearest1['單價元平方公尺']
+    gdB_nearest1 = gdB_nearest1['history_price1']
+    
+    gdB_nearest2 = gdB.iloc[idx[:,2]].drop(columns="geometry").reset_index(drop=True)
+    gdB_nearest2['history_price2'] = gdB_nearest2['單價元平方公尺']
+    gdB_nearest2 = gdB_nearest2['history_price2']
+    
+    gdB_nearest3 = gdB.iloc[idx[:,3]].drop(columns="geometry").reset_index(drop=True)
+    gdB_nearest3['history_price3'] = gdB_nearest3['單價元平方公尺']
+    gdB_nearest3 = gdB_nearest3['history_price3']
+    
+    gdB_nearest4 = gdB.iloc[idx[:,4]].drop(columns="geometry").reset_index(drop=True)
+    gdB_nearest4['history_price4'] = gdB_nearest4['單價元平方公尺']
+    gdB_nearest4 = gdB_nearest4['history_price4']
+    gdf = pd.concat(
+        [
+            gdA.reset_index(drop=True),
+            gdB_nearest0,
+            pd.Series(dist[:,0], name=f'有無歷史成交資料'),
+            gdB_nearest1,
+            pd.Series(dist[:,1], name=f'1_dist'),
+            gdB_nearest2,
+            pd.Series(dist[:,2], name=f'2_dist'),
+            gdB_nearest3,
+            pd.Series(dist[:,3], name=f'3_dist'),
+            gdB_nearest4,
+            pd.Series(dist[:,4], name=f'4_dist')
+        ], 
+        axis=1)
+    gdf.loc[gdf['有無歷史成交資料'] == 0, '有無歷史成交資料'] = 0.0001
+    gdf.loc[gdf['1_dist'] == 0, '1_dist'] = 0.0001
+    gdf.loc[gdf['2_dist'] == 0, '2_dist'] = 0.0001
+    gdf.loc[gdf['3_dist'] == 0, '3_dist'] = 0.0001
+    gdf.loc[gdf['4_dist'] == 0, '4_dist'] = 0.0001
+    gdf['history_price_same_object'] = gdf.apply(lambda x: (x['history_price0'] * 1 / (x['有無歷史成交資料'] ** 2) + x['history_price1'] * 1 / (x['1_dist'] ** 2) + 
+                                                x['history_price2'] * 1 / (x['2_dist'] ** 2) + x['history_price3'] * 1 / (x['3_dist'] ** 2) +
+                                                x['history_price4'] * 1 / (x['4_dist'] ** 2))/(1 / (x['有無歷史成交資料'] ** 2) +1 / (x['1_dist'] ** 2) + 
+                                                                                               1 / (x['2_dist'] ** 2) +1 / (x['3_dist'] ** 2) +1 / (x['4_dist'] ** 2)), axis = 1)
+    gdf.drop(['history_price0', 'history_price1', 'history_price2', 'history_price3', 'history_price4'],axis=1,inplace=True)
+    gdf.drop(['1_dist', '2_dist', '3_dist', '4_dist'],axis=1,inplace=True)
+    gdf.loc[gdf['有無歷史成交資料'] > 0.0001, '有無歷史成交資料'] = 0
+    gdf.loc[gdf['有無歷史成交資料'] == 0.0001, '有無歷史成交資料'] = 1
+    return gdf
+
+def nearest5HistoryPrice_age(gdA, gdB):
+
+    nA = np.array(list(gdA.geometry.apply(lambda x: (x.x, x.y))))
+    nB = np.array(list(gdB.geometry.apply(lambda x: (x.x, x.y))))
+    btree = cKDTree(nB)
+    dist, idx = btree.query(nA, k=5)
+    gdB_nearest0 = gdB.iloc[idx[:,0]].drop(columns="geometry").reset_index(drop=True)
+    gdB_nearest0['history_price0'] = gdB_nearest0['單價元平方公尺']
+    gdB_nearest0 = gdB_nearest0['history_price0']
+    
+    gdB_nearest1 = gdB.iloc[idx[:,1]].drop(columns="geometry").reset_index(drop=True)
+    gdB_nearest1['history_price1'] = gdB_nearest1['單價元平方公尺']
+    gdB_nearest1 = gdB_nearest1['history_price1']
+    
+    gdB_nearest2 = gdB.iloc[idx[:,2]].drop(columns="geometry").reset_index(drop=True)
+    gdB_nearest2['history_price2'] = gdB_nearest2['單價元平方公尺']
+    gdB_nearest2 = gdB_nearest2['history_price2']
+    
+    gdB_nearest3 = gdB.iloc[idx[:,3]].drop(columns="geometry").reset_index(drop=True)
+    gdB_nearest3['history_price3'] = gdB_nearest3['單價元平方公尺']
+    gdB_nearest3 = gdB_nearest3['history_price3']
+    
+    gdB_nearest4 = gdB.iloc[idx[:,4]].drop(columns="geometry").reset_index(drop=True)
+    gdB_nearest4['history_price4'] = gdB_nearest4['單價元平方公尺']
+    gdB_nearest4 = gdB_nearest4['history_price4']
+    gdf = pd.concat(
+        [
+            gdA.reset_index(drop=True),
+            gdB_nearest0,
+            pd.Series(dist[:,0], name=f'0_dist'),
+            gdB_nearest1,
+            pd.Series(dist[:,1], name=f'1_dist'),
+            gdB_nearest2,
+            pd.Series(dist[:,2], name=f'2_dist'),
+            gdB_nearest3,
+            pd.Series(dist[:,3], name=f'3_dist'),
+            gdB_nearest4,
+            pd.Series(dist[:,4], name=f'4_dist')
+        ], 
+        axis=1)
+    gdf.loc[gdf['0_dist'] == 0, '0_dist'] = 0.0001
+    gdf.loc[gdf['1_dist'] == 0, '1_dist'] = 0.0001
+    gdf.loc[gdf['2_dist'] == 0, '2_dist'] = 0.0001
+    gdf.loc[gdf['3_dist'] == 0, '3_dist'] = 0.0001
+    gdf.loc[gdf['4_dist'] == 0, '4_dist'] = 0.0001
+    gdf['history_price_by_house_age'] = gdf.apply(lambda x: (x['history_price0'] * 1 / (x['0_dist'] ** 2) + x['history_price1'] * 1 / (x['1_dist'] ** 2) + 
+                                                x['history_price2'] * 1 / (x['2_dist'] ** 2) + x['history_price3'] * 1 / (x['3_dist'] ** 2) +
+                                                x['history_price4'] * 1 / (x['4_dist'] ** 2))/(1 / (x['0_dist'] ** 2) +1 / (x['1_dist'] ** 2) + 
+                                                                                               1 / (x['2_dist'] ** 2) +1 / (x['3_dist'] ** 2) +1 / (x['4_dist'] ** 2)), axis = 1)
+    gdf.drop(['history_price0', 'history_price1', 'history_price2', 'history_price3', 'history_price4'],axis=1,inplace=True)
+    gdf.drop(['0_dist','1_dist', '2_dist', '3_dist', '4_dist'],axis=1,inplace=True)
+    return gdf
+
+def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
+    print("\r",end="")
+    print("載入實價登陸圖層:[ =>........................ ]",end="")
+    sys.stdout.flush()
+    gf = gpd.read_file(input_filename, encoding = 'utf-8')    
+    gf_250 = gpd.read_file(input_filename, encoding = 'utf-8')
+=======
 
 def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
     gf = gpd.read_file(input_filename, encoding = 'utf-8')
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     gf_500 = gpd.read_file(input_filename, encoding = 'utf-8')
     gf_500['geometry'] = gf_500.buffer(500)
     gf_list = [gf_500]
     buffer_range = ['500']
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("載入周邊設施圖層:[ ==>....................... ]",end="")
+=======
     print("progress: 載入實價登錄圖層.....OK ||  ▉_______________________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     # 醫療設施medical_facilities
@@ -43,7 +185,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
     parking_area = gpd.read_file(preprocessingdata_path + 'transportation/parking.geojson', encoding = 'utf-8') # polygon
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析醫院距離:[ ===>...................... ]",end="")
+=======
     print("progress: 載入其他環境圖層.....OK ||  ▉▉______________________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -58,7 +204,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析診所數量:[ ====>..................... ]",end="")
+=======
     print("progress: 環域分析-醫院......OK ||  ▉▉▉_____________________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -72,7 +222,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析牙醫數量:[ =====>.................... ]",end="")
+=======
     print("progress: 環域分析-診所......OK ||  ▉▉▉▉____________________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -86,7 +240,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析藥局數量:[ ======>................... ]",end="")
+=======
     print("progress: 環域分析-牙醫......OK ||  ▉▉▉▉▉___________________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -100,7 +258,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析超商數量:[ =======>.................. ]",end="")
+=======
     print("progress: 環域分析-藥局......OK ||  ▉▉▉▉▉▉__________________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -114,7 +276,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析速食數量:[ ========>................. ]",end="")
+=======
     print("progress: 環域分析-超商......OK ||  ▉▉▉▉▉▉▉_________________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -127,7 +293,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析圖書館數:[ =========>................ ]",end="")
+=======
     print("progress: 環域分析-速食......OK ||  ▉▉▉▉▉▉▉▉________________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -140,7 +310,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析學校距離:[ ==========>............... ]",end="")
+=======
     print("progress: 環域分析-圖書館.....OK ||  ▉▉▉▉▉▉▉▉▉_______________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -154,7 +328,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析大學距離:[ ===========>.............. ]",end="")
+=======
     print("progress: 環域分析-學校......OK ||  ▉▉▉▉▉▉▉▉▉▉______________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -168,7 +346,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析消防距離:[ ============>............. ]",end="")
+=======
     print("progress: 環域分析-大學......OK ||  ▉▉▉▉▉▉▉▉▉▉▉_____________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -183,7 +365,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析有無油站:[ =============>............ ]",end="")
+=======
     print("progress: 環域分析-消防隊.....OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉____________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -197,7 +383,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析有無市場:[ ==============>........... ]",end="")
+=======
     print("progress: 環域分析-加油站.....OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉___________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -211,7 +401,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析警局距離:[ ===============>.......... ]",end="")
+=======
     print("progress: 環域分析-市場......OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉__________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -226,7 +420,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析宮廟數量:[ ================>......... ]",end="")
+=======
     print("progress: 環域分析-警局......OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉_________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -239,7 +437,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析墳墓面積:[ =================>........ ]",end="")
+=======
     print("progress: 環域分析-宮廟......OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉________",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -253,7 +455,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析公園面積:[ ==================>....... ]",end="")
+=======
     print("progress: 環域分析-墓地......OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉_______",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -267,7 +473,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析水域面積:[ ===================>...... ]",end="")
+=======
     print("progress: 環域分析-公園......OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉______",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -281,7 +491,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析停車面積:[ ====================>..... ]",end="")
+=======
     print("progress: 環域分析-水域......OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉_____",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -295,7 +509,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析公車站數:[ =====================>.... ]",end="")
+=======
     print("progress: 環域分析-停車場.....OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉____",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -309,7 +527,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析輕軌距離:[ ======================>... ]",end="")
+=======
     print("progress: 環域分析-公車站.....OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉___",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -324,7 +546,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析捷運距離:[ =======================>.. ]",end="")
+=======
     print("progress: 環域分析-輕軌站.....OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉__",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -339,7 +565,11 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         i = i + 1
     
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("環域分析火車距離:[ ========================>. ]",end="")
+=======
     print("progress: 環域分析-捷運站.....OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉_",end="")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     sys.stdout.flush()
     
     i = 0
@@ -353,13 +583,120 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
         gf.loc[gf['NEAR_TRA_'+ buffer_range[i]].isnull(), 'NEAR_TRA_'+ buffer_range[i]] = 0
         i = i + 1
     
+    
     print("\r",end="")
+<<<<<<< HEAD:preprocessing/buffer_analysis_add_history_price.py
+    print("歷史成交價格分析:[ =========================> ]",end="")
+    sys.stdout.flush()
+    filt_list = ['預售','親','關係','債務','民情','姐妹','母子','兄妹',
+                '裝潢','特殊','毛胚','調解','不佳','朋友','夾層','瑕疵',
+                '裝修','同一人','急','水','交易','股東',
+                '祖孫','破產','轉讓','整修','折讓','毛坯','傢俱','設備']
+
+    for f in filt_list:
+        filt = (~gf['備註'].str.contains(f, na=False))
+        gf = gf.loc[filt]
+
+
+    #print(gf.head())
+    listA = [110,109,108,107,106,105,104]
+    listB = [0,10,20,30,40,50,60]
+    listC = ['建物型態-住宅大樓', '建物型態-公寓', '建物型態-華廈', '建物型態-套房', '建物型態-透天']
+    listD = ['0', '1']
+
+    j = 0
+    for c in listC:
+        for d in listD:
+            try:
+                filt = (gf['交易年份'] != 111) & (gf[c] == 1) & (gf['交易標的'] == d)
+                gfb = gf.loc[filt]
+                filt = (gf['交易年份'] == 111) & (gf[c] == 1) & (gf['交易標的'] == d)
+                gfa = gf.loc[filt]
+
+                gfc = nearest5HistoryPrice(gfa, gfb)
+                if j == 0:
+                    gf_final = gfc
+                    j = j + 1
+                else:
+                    gf_final = pd.concat([gf_final, gfc])
+            except:
+                continue
+
+    for a in listA:
+        for c in listC:
+            for d in listD:
+                try:
+                    filt = (gf['交易年份'] != 111) & (gf['交易年份'] != a) & (gf[c] == 1) & (gf['交易標的'] == d)
+                    gfb = gf.loc[filt]
+                    filt = (gf['交易年份'] != 111) & (gf['交易年份'] == a) & (gf[c] == 1) & (gf['交易標的'] == d)
+                    gfa = gf.loc[filt]
+                    gfc = nearest5HistoryPrice(gfa, gfb)
+                    gf_final = pd.concat([gf_final, gfc])
+                except:
+                    continue
+
+    gf = gf_final
+
+    j = 0
+    for b in listB:
+        for c in listC:
+            for d in listD:
+                try:
+                    filt = (gf['交易年份'] != 111) & (gf['屋齡'] <= b) & (gf['屋齡'] > b-10) & (gf[c] == 1) & (gf['交易標的'] == d)
+                    gfb = gf.loc[filt]
+                    filt = (gf['交易年份'] == 111) & (gf['屋齡'] <= b) & (gf['屋齡'] > b-10) & (gf[c] == 1) & (gf['交易標的'] == d)
+                    gfa = gf.loc[filt]
+
+                    gfc = nearest5HistoryPrice_age(gfa, gfb)
+                    if j == 0:
+                        gf_final = gfc
+                        j = j + 1
+                    else:
+                        gf_final = pd.concat([gf_final, gfc])
+                except:
+                    continue
+
+    for a in listA:
+        for b in listB:
+            for c in listC:
+                for d in listD:
+                    try:
+                        filt = (gf['交易年份'] != 111) & (gf['交易年份'] != a) & (gf['屋齡'] <= b) & (gf['屋齡'] > b-10) & (gf[c] == 1) & (gf['交易標的'] == d)
+                        gfb = gf.loc[filt]
+                        filt = (gf['交易年份'] != 111) & (gf['交易年份'] == a) & (gf['屋齡'] <= b) & (gf['屋齡'] > b-10) & (gf[c] == 1) & (gf['交易標的'] == d)
+                        gfa = gf.loc[filt]
+                        gfc = nearest5HistoryPrice_age(gfa, gfb)
+                        gf_final = pd.concat([gf_final, gfc])
+                    except:
+                        continue
+    gf_final.loc[gf_final['有無歷史成交資料'] == 0, 'history_price_same_object'] = 0
+    gf_final.loc[gf_final['有無歷史成交資料'] == 1, 'history_price_by_house_age'] = 0
+    gf_final['history_price_final'] = gf_final.apply(lambda x: x['history_price_same_object'] + x['history_price_by_house_age'], axis = 1)
+    gf_final.drop(['history_price_same_object','history_price_by_house_age'],axis=1,inplace=True)
+    gf = gf_final
+    
+    print("\r",end="")
+    print(f"正在儲存檔案至{output_filename}....................................",end="")
+    sys.stdout.flush()
+    
+    
+    
+    # filt = (gf['交易年份'] != 111) & (gf['屋齡'] < 10) & (gf['建物型態-住宅大樓'] == 1)
+    # gfb = gf.loc[filt]
+    # filt = (gf['交易年份'] == 110) & (gf['屋齡'] < 10) & (gf['建物型態-住宅大樓'] == 1)
+    # gfa = gf.loc[filt]
+    # gf = ckdnearest(gfa, gfb)
+    #print(gf_final)
+    gf.to_csv(output_filename)
+    print("\r",end="")
+=======
     print("progress: 環域分析-火車站.....OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉",end="")
     sys.stdout.flush()
     
     gf.to_csv(output_filename)
     print("\r",end="")
     print("progress: 環域分析-所有項目.....OK ||  ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉")
+>>>>>>> parent of 25cd7a2 (20220826 update):preprocessing/buffer_analysis500.py
     print(gf.info())
     
 if __name__ == '__main__':
