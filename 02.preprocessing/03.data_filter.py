@@ -17,7 +17,7 @@ def city_filter(geodataframe,cityname):
     return geodataframe
 
 def datafilter(cityname, cityname_cn):
-    path_text = r'./geojson/'
+    path_text = r'./--temp--/'
     path = os.listdir(path_text)
     n = 0
     for filename in path:
@@ -26,12 +26,14 @@ def datafilter(cityname, cityname_cn):
                 if n == 0:
                     gf_final =gpd.read_file(path_text + filename, encoding = 'utf-8')
                     gf_final = gf_final.iloc[1:]
+                    gf_final= gf_final.to_crs(epsg=3826) 
                     gf_final = city_filter(gf_final,cityname_cn)
                     n = n + 1
                     print(f'開啟檔案:{filename}')
                 else:
                     gf2 =gpd.read_file(path_text + filename, encoding = 'utf-8')
                     gf2 = gf2.iloc[1:]
+                    gf2= gf2.to_crs(epsg=3826) 
                     gf2 = city_filter(gf2,cityname_cn)
                     n = n + 1
                     gf_final = pd.concat([gf_final, gf2])
@@ -87,14 +89,14 @@ def datafilter(cityname, cityname_cn):
     
     # -----過濾欄位+資料-----
     print('檔案儲存中.....')
-    filt = (gf_final['主要用途'] == '住家用') & (gf_final['floor'] != '1')
+    filt = (gf_final['主要用途'] == '住家用') & (gf_final['floor'] != 1) & (gf_final['total_floor'] != 1)
     gf_final = gf_final.loc[filt]
     
     gf_final.drop(['index','非都市土地使用分區','非都市土地使用編定','交易年月日','交易筆棟數','移轉層次','建築完成年月',
         '建物移轉總面積平方公尺','總價元','車位移轉總面積(平方公尺)','編號',
         '移轉編號','修正地址','index_right','COUNTYID','COUNTYCODE','COUNTYNAME','COUNTYENG',
         '土地移轉總面積平方公尺','總樓層數','建物型態','主要用途'],axis=1,inplace=True)
-    gf_final.to_file(f'./--temp--/{cityname}_realprice' + ".geojson", driver='GeoJSON')
+    gf_final.to_file(f'../03.dataset/{cityname}_realprice' + ".geojson", driver='GeoJSON')
     
 if __name__ == '__main__':
     code = input("欲處理的城市簡稱: ")
