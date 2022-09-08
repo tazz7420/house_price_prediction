@@ -79,7 +79,9 @@ class HousePriceModel:
             data1.loc[data1['y20'] < 0 , 'y20'] = 0
             data1.loc[data1['y30'] >= 0, 'y30'] = 1
             data1.loc[data1['y30'] < 0 , 'y30'] = 0
+            
 
+            print(f'=========={self.cityname}==========')
             print(f'預測房價落在實際房價+-10%內的機率為:{round(data1["y10"].mean(),4)*100}%')
             print(f'預測房價落在實際房價+-20%內的機率為:{round(data1["y20"].mean(),4)*100}%')
             print(f'預測房價落在實際房價+-30%內的機率為:{round(data1["y30"].mean(),4)*100}%')
@@ -87,7 +89,6 @@ class HousePriceModel:
 
             
             print(f"mean_absolute_error: {mean_absolute_error(y_test, result)}")
-            print(f"mean_absolute_percentage_error: {mean_absolute_percentage_error(y_test, result)}")
             print(f"mean_squared_error: {mean_squared_error(y_test, result)}")
             print(f"explained_variance_score: {explained_variance_score(y_test, result)}")
             print(f"r2_score: {r2_score(y_test, result)}")
