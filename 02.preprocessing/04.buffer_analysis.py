@@ -29,9 +29,13 @@ def buffer_analysis(input_filename, output_filename, preprocessingdata_path):
     sys.stdout.flush()
     
     gf = gpd.read_file(input_filename, encoding = 'utf-8')
+    gf['Unnamed: 0'] = gf.index
     gf_250 = gpd.read_file(input_filename, encoding = 'utf-8')
+    gf_250['Unnamed: 0'] = gf_250.index
     gf_500 = gpd.read_file(input_filename, encoding = 'utf-8')
+    gf_500['Unnamed: 0'] = gf_500.index
     gf_750 = gpd.read_file(input_filename, encoding = 'utf-8')
+    gf_750['Unnamed: 0'] = gf_750.index
 
     gf_250['geometry'] = gf_250.buffer(250)
     gf_500['geometry'] = gf_500.buffer(500)
