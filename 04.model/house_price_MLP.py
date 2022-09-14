@@ -108,12 +108,12 @@ class HousePriceModel:
             mean = self.mean.drop(['y'])
             std = self.std.drop(['y'])
             predict_data = np.array((predict_data - mean) / std)
-            # print(predict_data)
+            #print(predict_data)
 
             model_mlp = joblib.load(f'./{self.cityname}/model_mlp.pkl')
             result = model_mlp.predict(predict_data)
             print(result)
             result = result * self.std['y'] + self.mean['y']
-            return result
+            return predict_data,result
         else:
             print('模型尚未訓練，請先訓練模型')
